@@ -30,11 +30,11 @@ const Hero = () => {
           Front End Developer, Learner And Minimalist
         </h3>
 
-        <p className="font-semibold text-[16px] tracking-wide text-center max-w-2xl mt-6">
-          I'm A 24-Year-Old Student At Uttar Pradesh Technical University
-          Currently Studying Web Development And Design. As I've Grown As A
-          Developer, I've Worked Alongside Senior Designers And Developers Who
-          Have Raised My Standards For Whats Expected Of Any Web Application
+        <p className="font-medium text-[18px] tracking-tight text-center max-w-2xl mt-6 line-clamp-4 md:line-clamp-none ">
+          I'm a 24-year-old student at Uttar Pradesh Technical University,
+          currently studying web development and design. As I've grown as a
+          developer, I've worked alongside senior designers and developers who
+          have raised my standards for what is expected of any web application.
         </p>
 
         <div className="flex flex-col items-center justify-center my-6 gap-y-4 md:flex-row md:my-8  md:gap-y-0 sm:gap-x-4  ">

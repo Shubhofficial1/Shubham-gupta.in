@@ -11,14 +11,14 @@ const About = () => {
             <p className="w-fit border border-indigo-500 px-2 py-1 font-semibold text-[14px] rounded-br-lg">
               About Me
             </p>
-            <h1 className="font-bold text-[40px] tracking-normal my-5 line-clamp-3">
-              Experienced Web developer
+            <h1 className="font-bold text-[40px] tracking-normal mt-3 mb-2 line-clamp-3 capitalize">
+              Experienced Web Developer
             </h1>
-            <p className="font-semibold text-[16px] tracking-wide my-5 line-clamp-6">
-              With Over 4 years of experience in web development , i have honed
+            <p className="font-medium text-[16px] tracking-wide mb-5 line-clamp-6 text-slate-500">
+              With over 4 years of experience in web development, I have honed
               my skills in creating responsive, user-friendly, and visually
               appealing websites. I specialize in modern front-end technologies
-              like React, Next.js , Redux toolkit and Tailwind CSS, as well as
+              like React, Next.js, Redux Toolkit, and Tailwind CSS, as well as
               back-end development with Node.js and Express.
             </p>
             <ul className="my-5">
@@ -29,7 +29,7 @@ const About = () => {
                 >
                   <CheckBadgeIcon className="size-6 text-green-400" />
                   <li>
-                    <p className="font-light text-[18px] tracking-tight line-clamp-1">
+                    <p className="font-semibold text-[16px] tracking-tight line-clamp-1 text-slate-600">
                       {skill.title}
                     </p>
                   </li>
