@@ -53,7 +53,7 @@ const Skills = () => {
                 className="flex flex-col justify-center items-center text-slate-500"
                 key={alt}
               >
-                <div className="bg-indigo-400 hover:bg-indigo-500 rounded-md w-[140px] h-[140px] overflow-hidden">
+                <div className="border-[1px] border-slate-700/20 hover:bg-slate-700/20 rounded-lg w-[140px] h-[140px] overflow-hidden">
                   <img
                     src={src}
                     alt={alt}
@@ -71,7 +71,7 @@ const Skills = () => {
                 key={alt}
               >
                 <div
-                  className="bg-indigo-400 hover:bg-indigo-500 rounded-md w-[140px] h-[140px] overflow-hidden"
+                  className="border-[1px] border-slate-700/20 hover:bg-slate-700/20 rounded-lg w-[140px] h-[140px] overflow-hidden"
                   key={alt}
                 >
                   <img
