@@ -7,7 +7,7 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
-import HomeScreen from "./Screens/HomeScreen.tsx";
+import HomeScreen from "./screens/HomeScreen.tsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
