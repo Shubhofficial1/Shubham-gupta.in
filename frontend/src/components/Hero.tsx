@@ -8,7 +8,7 @@ import {
 
 const Hero = () => {
   return (
-    <div className=" bg-[#0D0F11] text-white py-[72px] sm:py-24">
+    <div className=" bg-[#0D0F11] text-white py-[72px]  sm:py-24">
       <div className="container flex flex-col items-center">
         <div className="relative">
           <StarIcon className="size-7 bg-white text-yellow-400 rounded-full absolute bottom-9 -right-[2px] p-1 cursor-pointer" />

@@ -1,13 +1,13 @@
-import About from "./components/About";
-// import AboutSection from "./components/AboutSection";
+import Banner from "./components/Banner";
 import Hero from "./components/Hero";
+import About from "./components/About";
 
 const App = () => {
   return (
     <>
+      <Banner />
       <Hero />
       <About />
-      {/* <AboutSection /> */}
     </>
   );
 };
