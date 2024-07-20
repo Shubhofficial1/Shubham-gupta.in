@@ -3,15 +3,15 @@ import { CheckBadgeIcon } from "@heroicons/react/24/solid";
 
 const About = () => {
   return (
-    <div className="bg-[#0D0F11] text-white py-[72px] sm:py-24">
-      <div className="container h-fit min-h-[500px] ">
-        <div className="grid grid-cols-1 gap-5 md:gap-20 md:grid-cols-2">
-          <div className="w-full h-full aspect-video rounded-lg bg-slate-800 "></div>
+    <div className="bg-[#0D0F11] py-[72px] sm:py-24 text-white">
+      <div className="py-5 h-fit min-h-[500px] container">
+        <div className="gap-5 md:gap-20 grid grid-cols-1 md:grid-cols-2">
+          <div className="bg-slate-800 rounded-lg w-full h-full aspect-video"></div>
           <div className="px-5">
-            <h1 className="font-bold text-[40px] tracking-normal mb-2 line-clamp-3 capitalize">
+            <h1 className="mb-2 line-clamp-3 font-bold text-[40px] capitalize tracking-normal">
               Experienced Web Developer
             </h1>
-            <p className="font-medium text-[16px] tracking-wide mb-5 line-clamp-6 text-slate-500">
+            <p className="mb-5 line-clamp-6 font-medium text-[16px] text-slate-500 tracking-wide">
               With over 4 years of experience in web development, I have honed
               my skills in creating responsive, user-friendly, and visually
               appealing websites. I specialize in modern front-end technologies
@@ -24,9 +24,9 @@ const About = () => {
                   className="flex items-center gap-x-2 my-2"
                   key={skill.title}
                 >
-                  <CheckBadgeIcon className="size-6 text-green-400" />
+                  <CheckBadgeIcon className="text-green-400 size-6" />
                   <li>
-                    <p className="font-semibold text-[16px] tracking-tight line-clamp-1 text-slate-600">
+                    <p className="line-clamp-1 font-semibold text-[16px] text-slate-600 tracking-tight">
                       {skill.title}
                     </p>
                   </li>

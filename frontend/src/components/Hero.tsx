@@ -8,45 +8,45 @@ import {
 
 const Hero = () => {
   return (
-    <div className=" bg-[#0D0F11] text-white py-[72px]  sm:py-24">
-      <div className="container flex flex-col items-center">
+    <div className="bg-[#0D0F11] py-[72px] sm:py-24 text-white">
+      <div className="flex flex-col items-center container">
         <div className="relative">
-          <StarIcon className="size-7 bg-white text-yellow-400 rounded-full absolute bottom-9 -right-[2px] p-1 cursor-pointer" />
+          <StarIcon className="-right-[2px] bottom-9 absolute bg-white p-1 rounded-full text-yellow-400 cursor-pointer size-7" />
           <img
             src={profileImage}
             alt="Shubham Gupta"
-            className="w-[180px] h-[180px] rounded-full border-4 border-white object-cover"
+            className="border-4 border-white rounded-full w-[180px] h-[180px] object-cover"
           />
         </div>
 
-        <h1 className="font-bold text-[46px] tracking-wide mt-5 text-center">
+        <h1 className="mt-5 font-bold text-[46px] text-center tracking-wide">
           Hi 👋, I'm{" "}
-          <span className="bg-gradient-to-r from-indigo-500 to-indigo-400 text-transparent bg-clip-text [-webkit-background-clip:text]">
+          <span className="bg-clip-text bg-gradient-to-r from-indigo-500 to-indigo-400 text-transparent [-webkit-background-clip:text]">
             Shubham
           </span>
         </h1>
 
-        <h3 className="font-extrabold text-[28px] text-center tracking-tight text-indigo-500 underline underline-offset-8 my-1">
+        <h3 className="my-1 font-extrabold text-[28px] text-center text-indigo-500 underline underline-offset-8 tracking-tight">
           Front End Developer, Learner And Minimalist
         </h3>
 
-        <p className="font-medium text-[18px] tracking-tight text-center max-w-2xl mt-6 line-clamp-4 md:line-clamp-none ">
+        <p className="mt-6 line-clamp-4 md:line-clamp-none max-w-2xl font-medium text-[18px] text-center tracking-tight">
           I'm a 24-year-old student at Uttar Pradesh Technical University,
           currently studying web development and design. As I've grown as a
           developer, I've worked alongside senior designers and developers who
           have raised my standards for what is expected of any web application.
         </p>
 
-        <div className="flex flex-col items-center justify-center my-6 gap-y-4 md:flex-row md:my-8  md:gap-y-0 sm:gap-x-4  ">
+        <div className="flex md:flex-row flex-col justify-center items-center gap-y-4 sm:gap-x-4 md:gap-y-0 my-6 md:my-8">
           <Button onClick={() => {}}>
-            <h1 className="text-white text-lg font-bold tracking-tight">
+            <h1 className="font-bold text-lg text-white tracking-tight">
               Contact Me
             </h1>
             <EnvelopeIcon className="size-6" />
           </Button>
 
           <Button bgColor="bg-indigo-500" onClick={() => {}}>
-            <h1 className="text-white text-lg font-bold tracking-tight">
+            <h1 className="font-bold text-lg text-white tracking-tight">
               Download CV
             </h1>
             <FolderArrowDownIcon className="size-6" />

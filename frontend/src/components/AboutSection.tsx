@@ -9,11 +9,11 @@ const AboutSection = () => {
   };
 
   return (
-    <div className=" bg-[#0D0F11]  text-white py-[72px] sm:py-24">
+    <div className="bg-[#0D0F11] py-[72px] sm:py-24 text-white">
       <div className="container">
-        <div className="bg-[#151A21] rounded-md max-w-3xl py-6 px-8">
-          <h1 className="text-[20px] font-bold tracking-tight">About</h1>
-          <p className="font-medium text-[16px] tracking-wide mt-3 text-slate-400 ">
+        <div className="bg-[#151A21] px-8 py-6 rounded-md max-w-3xl">
+          <h1 className="font-bold text-[20px] tracking-tight">About</h1>
+          <p className="mt-3 font-medium text-[16px] text-slate-400 tracking-wide">
             I'm a 24-year-old student at Uttar Pradesh Technical University,
             currently studying web development and design. As I've grown as a
             developer, I've worked alongside senior designers and developers who
@@ -28,7 +28,7 @@ const AboutSection = () => {
                 standards of quality and performance.{" "}
               </>
             )}
-            <button onClick={toggleReadMore} className="text-indigo-400 ml-2">
+            <button onClick={toggleReadMore} className="ml-2 text-indigo-400">
               {isExpanded ? (
                 <div className="flex items-center gap-2">
                   <p className="font-medium text-[14px] tracking-wide">
