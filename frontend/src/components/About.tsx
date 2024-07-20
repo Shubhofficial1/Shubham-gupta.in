@@ -11,7 +11,7 @@ const About = () => {
             <h1 className="mb-2 line-clamp-3 font-bold text-[40px] capitalize tracking-normal">
               Experienced Web Developer
             </h1>
-            <p className="mb-5 line-clamp-6 font-medium text-[16px] text-slate-500 tracking-wide">
+            <p className="mb-5 line-clamp-4 md:line-clamp-6 font-medium text-[16px] text-slate-500 tracking-wide">
               With over 4 years of experience in web development, I have honed
               my skills in creating responsive, user-friendly, and visually
               appealing websites. I specialize in modern front-end technologies

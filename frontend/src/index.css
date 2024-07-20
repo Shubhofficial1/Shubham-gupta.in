@@ -8,3 +8,8 @@
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
 }
+
+body,
+html {
+  background: #0d0f11;
+}
