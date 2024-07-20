@@ -1,55 +1,8 @@
-import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { projects } from "../data";
 
 const Projects = () => {
-  const [projects] = useState([
-    {
-      name: "Collaborative Whiteboard",
-      slug: "collaborative-whiteboard",
-      description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga soluta esse nesciunt, voluptatum veniam architecto magnam corporis assumenda mollitia beatae.",
-      type: "Personal",
-      stack: ["React", "Socket.io", "tailwind", "NodeJS"],
-      githubUrl: "Lorem ipsum dolor sit amet.",
-      liveWebsite: "Lorem ipsum dolor sit",
-      thumbnail: "src/assets/images/1.jpg",
-    },
-    {
-      name: "Connect",
-      slug: "connect",
-      description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga soluta esse nesciunt, voluptatum veniam architecto magnam corporis assumenda mollitia beatae.",
-      type: "Personal",
-      stack: ["React", "Socket.io", "tailwind", "NodeJS"],
-      githubUrl: "Lorem ipsum dolor sit amet.",
-      liveWebsite: "Lorem ipsum dolor sit",
-      thumbnail: "src/assets/images/2.jpg",
-    },
-    {
-      name: "Proshop",
-      slug: "proshop",
-      description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga soluta esse nesciunt, voluptatum veniam architecto magnam corporis assumenda mollitia beatae.",
-      type: "Personal",
-      stack: ["React", "Socket.io", "tailwind", "NodeJS"],
-      githubUrl: "Lorem ipsum dolor sit amet.",
-      liveWebsite: "Lorem ipsum dolor sit",
-      thumbnail: "src/assets/images/3.jpg",
-    },
-    {
-      name: "Edemy",
-      slug: "edemy",
-      description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga soluta esse nesciunt, voluptatum veniam architecto magnam corporis assumenda mollitia beatae.",
-      type: "Personal",
-      stack: ["React", "Socket.io", "tailwind", "NodeJS"],
-      githubUrl: "Lorem ipsum dolor sit amet.",
-      liveWebsite: "Lorem ipsum dolor sit",
-      thumbnail: "src/assets/images/4.jpg",
-    },
-  ]);
   const navigate = useNavigate();
-
   return (
     <div className="bg-[#0D0F11] py-[72px] sm:py-24 text-white">
       <div className="container">
@@ -67,7 +20,12 @@ const Projects = () => {
               className="flex flex-col rounded-lg h-fit min-h-[480px]"
               key={project.name}
             >
-              <div className="bg-gradient-to-b from-[#151a21]/[.5] to-[#151a21]/[1] rounded-lg w-full h-[300px] overflow-hidden select-none">
+              <div
+                className="bg-gradient-to-b from-[#151a21]/[.5] to-[#151a21]/[1] rounded-lg w-full h-[300px] cursor-pointer overflow-hidden select-none"
+                onClick={() => {
+                  navigate(`/projects/${project.slug}`);
+                }}
+              >
                 <img
                   src={project.thumbnail}
                   alt={project.name}
@@ -84,7 +42,7 @@ const Projects = () => {
                 <button
                   className="line-clamp-2 font-medium text-[14px] text-slate-500 underline underline-offset-4 uppercase tracking-normal"
                   onClick={() => {
-                    navigate(project.slug);
+                    navigate(`/projects/${project.slug}`);
                   }}
                 >
                   VIEW PROJECT

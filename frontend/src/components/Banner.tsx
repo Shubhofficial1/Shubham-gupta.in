@@ -6,8 +6,12 @@ const Banner = () => {
           <span className="sm:inline hidden">
             Seeking Talent? Discover a Developer Ready to Drive Your Success -{" "}
           </span>
-          <a href="#" className="underline underline-offset-4">
-            Contact Me
+          <a
+            href="https://cal.com/shubhamgupta/15min"
+            target="_blank"
+            className="underline underline-offset-4"
+          >
+            Get In Touch 📅
           </a>
         </p>
       </div>

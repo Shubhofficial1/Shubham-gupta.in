@@ -8,11 +8,16 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import HomeScreen from "./screens/HomeScreen.tsx";
+import ProjectDetailsScreen from "./screens/ProjectDetailsScreen.tsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route path="/" index={true} element={<HomeScreen />}></Route>
+      <Route
+        path="projects/:projectSlug"
+        element={<ProjectDetailsScreen />}
+      ></Route>
     </Route>
   )
 );

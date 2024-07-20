@@ -5,4 +5,50 @@ const skills = [
   { title: "Passionate about creating user-friendly experiences" },
 ];
 
-export default skills;
+const projects = [
+  {
+    name: "Collaborative Whiteboard",
+    slug: "collaborative-whiteboard",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga soluta esse nesciunt, voluptatum veniam architecto magnam corporis assumenda mollitia beatae.",
+    type: "Personal",
+    stack: ["React", "Socket.io", "tailwind", "NodeJS"],
+    githubUrl: "https://github.com/Shubhofficial1",
+    liveWebsite: "/",
+    thumbnail: "/src/assets/images/1.jpg",
+  },
+  {
+    name: "Connect",
+    slug: "connect",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga soluta esse nesciunt, voluptatum veniam architecto magnam corporis assumenda mollitia beatae.",
+    type: "Personal",
+    stack: ["React", "Socket.io", "tailwind", "NodeJS"],
+    githubUrl: "https://github.com/Shubhofficial1",
+    liveWebsite: "/",
+    thumbnail: "/src/assets/images/2.jpg",
+  },
+  {
+    name: "Proshop",
+    slug: "proshop",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga soluta esse nesciunt, voluptatum veniam architecto magnam corporis assumenda mollitia beatae.",
+    type: "Personal",
+    stack: ["React", "Socket.io", "tailwind", "NodeJS"],
+    githubUrl: "https://github.com/Shubhofficial1",
+    liveWebsite: "/",
+    thumbnail: "/src/assets/images/3.jpg",
+  },
+  {
+    name: "Edemy",
+    slug: "edemy",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga soluta esse nesciunt, voluptatum veniam architecto magnam corporis assumenda mollitia beatae.",
+    type: "Personal",
+    stack: ["React", "Socket.io", "tailwind", "NodeJS"],
+    githubUrl: "https://github.com/Shubhofficial1",
+    liveWebsite: "/",
+    thumbnail: "/src/assets/images/4.jpg",
+  },
+];
+export { skills, projects };
