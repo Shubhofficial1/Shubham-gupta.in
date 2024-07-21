@@ -67,7 +67,7 @@ const experiences = [
     joiningDate: "October 2020",
     completionDate: "December 2022",
     duration: "2Y,1M",
-    position: "Sr Analyst/ Software Engineer",
+    position: "Sr Analyst / Software Engineer",
     company: "Capgemini Technology Services India Limited",
     companyShortName: "Capgemini",
   },
