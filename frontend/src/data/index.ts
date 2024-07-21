@@ -51,4 +51,26 @@ const projects = [
     thumbnail: "/src/assets/images/4.jpg",
   },
 ];
-export { skills, projects };
+
+const experiences = [
+  {
+    _id: 1,
+    joiningDate: "January 2023",
+    completionDate: "Present",
+    duration: "1Y,7M",
+    position: "Systems Engineer",
+    company: "Tata Consultancy Services",
+    companyShortName: "TCS",
+  },
+  {
+    _id: 2,
+    joiningDate: "October 2020",
+    completionDate: "December 2022",
+    duration: "2Y,1M",
+    position: "Sr Analyst/ Software Engineer",
+    company: "Capgemini Technology Services India Limited",
+    companyShortName: "Capgemini",
+  },
+];
+
+export { skills, projects, experiences };

@@ -52,7 +52,10 @@ const ProjectDetailsScreen = () => {
               Tech Stack
             </h1>
             {project.stack.map((stk) => (
-              <p className="line-clamp-1 font-medium text-[14px] text-slate-500 tracking-wide">
+              <p
+                className="line-clamp-1 font-medium text-[14px] text-slate-500 tracking-wide"
+                key={stk}
+              >
                 {stk}
               </p>
             ))}

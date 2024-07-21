@@ -1,5 +1,9 @@
-import Skills from "../data/index";
+import { skills } from "../data/index";
 import { CheckBadgeIcon } from "@heroicons/react/24/solid";
+
+interface ISkills {
+  title: string;
+}
 
 const About = () => {
   return (
@@ -19,7 +23,7 @@ const About = () => {
               back-end development with Node.js and Express.
             </p>
             <ul className="my-5">
-              {Skills?.map((skill) => (
+              {skills.map((skill: ISkills) => (
                 <div
                   className="flex items-center gap-x-2 my-2"
                   key={skill.title}

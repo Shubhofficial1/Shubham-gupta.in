@@ -25,12 +25,12 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="bg-[#0D0F11] py-[72px] sm:py-24 text-white">
+    <div className="bg-[#0D0F11] py-36 text-white">
       <div className="container">
         <h1 className="mb-2 line-clamp-2 font-bold text-[40px] capitalize tracking-normal">
           My Skills
         </h1>
-        <p className="mb-5 line-clamp-2 md:line-clamp-6 max-w-4xl font-medium text-[16px] text-slate-500 tracking-wide">
+        <p className="mb-5 line-clamp-5 md:line-clamp-3 max-w-4xl font-medium text-[16px] text-slate-500 tracking-wide">
           Through my studies, I've gained a solid understanding of computer
           science and web development concepts, and have dedicated a lot of my
           free time to apply these concepts to real-world scenarios and
