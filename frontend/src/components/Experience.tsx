@@ -16,7 +16,7 @@ const Experience = () => {
     <div className="bg-[#0D0F11] pt-20 pb-32 text-white">
       <div className="container">
         <h1 className="mb-2 line-clamp-3 font-bold text-[40px] capitalize tracking-normal">
-          My Professional Journey
+          My Professional Experience
         </h1>
         <p className="mb-5 line-clamp-5 md:line-clamp-3 max-w-4xl font-medium text-[16px] text-slate-500 tracking-wide">
           Throughout my career, I've had the privilege of contributing to and
