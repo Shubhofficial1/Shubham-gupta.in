@@ -29,7 +29,7 @@ const ProjectDetailsScreen = () => {
         <Link to={"/"}>
           <ArrowLeftCircleIcon className="border-slate-800 hover:border-[2px] mb-8 rounded-full cursor-pointer fill-slate-600 size-14" />
         </Link>
-        <div className="rounded-lg w-full h-[400px] overflow-hidden select-none">
+        <div className="bg-gradient-to-b from-[#151a21]/[.5] to-[#151a21]/[1] rounded-lg w-full h-[400px] overflow-hidden select-none">
           <img
             src={project.thumbnail}
             alt={project.name}
