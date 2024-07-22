@@ -48,9 +48,9 @@ const Experience = () => {
               <div className="md:inline relative border-[1px] border-slate-700 hidden h-full">
                 <span>
                   {experience.completionDate === "Present" ? (
-                    <BoltIcon className="bottom-[calc(50%-12px)] -left-3 absolute fill-yellow-200 size-6" />
+                    <BoltIcon className="bottom-[calc(50%-12px)] -left-[calc(50%+12px)] absolute fill-yellow-200 size-6" />
                   ) : (
-                    <CheckCircleIcon className="bottom-[calc(50%-12px)] -left-3 absolute fill-blue-400 size-6" />
+                    <CheckCircleIcon className="bottom-[calc(50%-12px)] -left-[calc(50%+12px)] absolute fill-blue-400 size-6" />
                   )}
                 </span>
               </div>

@@ -23,6 +23,11 @@ const skills = [
   { src: graphqlLogo, alt: "Graphql" },
 ];
 
+interface ISkill {
+  src: string;
+  alt: string;
+}
+
 const Skills = () => {
   return (
     <div className="bg-[#0D0F11] py-36 text-white">
@@ -48,40 +53,40 @@ const Skills = () => {
             animate={{ translateX: "-50%" }}
             className="flex flex-none gap-16 pr-16"
           >
-            {skills.map(({ src, alt }) => (
+            {skills.map((skill: ISkill) => (
               <div
                 className="flex flex-col justify-center items-center text-slate-500"
-                key={alt}
+                key={skill.alt}
               >
                 <div className="border-[1px] border-slate-700/20 hover:bg-slate-700/20 rounded-lg w-[140px] h-[140px] overflow-hidden">
                   <img
-                    src={src}
-                    alt={alt}
+                    src={skill.src}
+                    alt={skill.alt}
                     className="flex-none w-full h-full"
                   />
                 </div>
                 <h1 className="mt-2 line-clamp-1 font-medium text-[18px] text-500 capitalize tracking-wide">
-                  {alt}
+                  {skill.alt}
                 </h1>
               </div>
             ))}
-            {skills.map(({ src, alt }) => (
+            {skills.map((skill: ISkill) => (
               <div
                 className="flex flex-col justify-center items-center text-slate-500"
-                key={alt}
+                key={skill.alt}
               >
                 <div
                   className="border-[1px] border-slate-700/20 hover:bg-slate-700/20 rounded-lg w-[140px] h-[140px] overflow-hidden"
-                  key={alt}
+                  key={skill.alt}
                 >
                   <img
-                    src={src}
-                    alt={alt}
+                    src={skill.src}
+                    alt={skill.alt}
                     className="flex-none w-full h-full"
                   />
                 </div>
                 <h1 className="mt-2 line-clamp-1 font-medium text-[18px] text-500 capitalize tracking-wide">
-                  {alt}
+                  {skill.alt}
                 </h1>
               </div>
             ))}

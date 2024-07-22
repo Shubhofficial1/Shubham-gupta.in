@@ -16,6 +16,26 @@ const projects = [
     githubUrl: "https://github.com/Shubhofficial1",
     liveWebsite: "/",
     thumbnail: "/src/assets/images/1.jpg",
+    sections: [
+      {
+        title: "Web Stack and Explanation 🔥",
+        summary:
+          "React Made The Most Sense For The Web Application Because It Required To Connect To GraphQL And The Shopify-SDK For Javascript Ties Into React Very Smoothly. The Shopify-Buy-SDK Was Chosen Because Of The Ability For The Client To Modify The Products Without Any Complex Coding Knowledge. React Hooks And Session Storage Are Also Used Throughout The Project To Maintain The User Cart Items And Allows The Cart Count And Other Shopping Data To Be Displayed Universally Without The Need For Redux. Netlify Is Also An Obvious Choice For Deployment Because Of Its Speed And Reliability.",
+        thumbnailUrl: "/src/assets/images/1.jpg",
+      },
+      {
+        title: "Problems and Thought Process 👨‍⚖️",
+        summary:
+          "Like Most Projects, I Ran Into A Few Bumps Along The Way, One Particularly Difficult Area Was Organization And Structure Of The Code. Because Of This Project Size, I Realized How Important Maintaining An Organized Structure Would Be. I Worked Hard To Keep Components As Reusable As Possible And Utilized Props For Many Slight Variations. I Also Used Styled-Components, Because The Structure Of CSS-In-Js Is Much Clearer And Prevents Overrides.",
+        thumbnailUrl: "/src/assets/images/1.jpg",
+      },
+      {
+        title: "Lessons Learned 💡",
+        summary:
+          "I Could Spend All Day Describing The Lessons That I Learned While Working On This Project, But The Most Important Ones Involved My Newfound Understanding Of React Hooks, Git Management, Feature Keys, And API Integration. As My First Large Project Using React, I Learned A Lot Of Lessons Regarding Code Structure And Organization. When I First Began, I Would Write Sloppy Code And Move On, But Now I Know How Doing So Can Come Back To Bite You; I Now Spend A Lot More Time Refactoring And Improving Every Line I Code I Write, For The Best Readability And Far Fewer Headaches.",
+        thumbnailUrl: "/src/assets/images/1.jpg",
+      },
+    ],
   },
   {
     name: "Connect",
@@ -27,6 +47,26 @@ const projects = [
     githubUrl: "https://github.com/Shubhofficial1",
     liveWebsite: "/",
     thumbnail: "/src/assets/images/2.jpg",
+    sections: [
+      {
+        title: "Web Stack and Explanation 🔥",
+        summary:
+          "React Made The Most Sense For The Web Application Because It Required To Connect To GraphQL And The Shopify-SDK For Javascript Ties Into React Very Smoothly. The Shopify-Buy-SDK Was Chosen Because Of The Ability For The Client To Modify The Products Without Any Complex Coding Knowledge.  React Hooks And Session Storage Are Also Used Throughout The Project To Maintain The User Cart Items And Allows The Cart Count And Other Shopping Data To Be Displayed Universally Without The Need For Redux. Netlify Is Also An Obvious Choice For Deployment Because Of Its Speed And Reliability.",
+        thumbnailUrl: "/src/assets/images/2.jpg",
+      },
+      {
+        title: "Problems and Thought Process 👨‍⚖️",
+        summary:
+          "Like Most Projects, I Ran Into A Few Bumps Along The Way, One Particularly Difficult Area Was Organization And Structure Of The Code. Because Of This Project Size, I Realized How Important Maintaining An Organized Structure Would Be. I Worked Hard To Keep Components As Reusable As Possible And Utilized Props For Many Slight Variations. I Also Used Styled-Components, Because The Structure Of CSS-In-Js Is Much Clearer And Prevents Overrides.",
+        thumbnailUrl: "/src/assets/images/2.jpg",
+      },
+      {
+        title: "Lessons Learned 💡",
+        summary:
+          "I Could Spend All Day Describing The Lessons That I Learned While Working On This Project, But The Most Important Ones Involved My Newfound Understanding Of React Hooks, Git Management, Feature Keys, And API Integration. As My First Large Project Using React, I Learned A Lot Of Lessons Regarding Code Structure And Organization. When I First Began, I Would Write Sloppy Code And Move On, But Now I Know How Doing So Can Come Back To Bite You; I Now Spend A Lot More Time Refactoring And Improving Every Line I Code I Write, For The Best Readability And Far Fewer Headaches.",
+        thumbnailUrl: "/src/assets/images/2.jpg",
+      },
+    ],
   },
   {
     name: "Proshop",
@@ -38,6 +78,26 @@ const projects = [
     githubUrl: "https://github.com/Shubhofficial1",
     liveWebsite: "/",
     thumbnail: "/src/assets/images/3.jpg",
+    sections: [
+      {
+        title: "Web Stack and Explanation 🔥",
+        summary:
+          "React Made The Most Sense For The Web Application Because It Required To Connect To GraphQL And The Shopify-SDK For Javascript Ties Into React Very Smoothly. The Shopify-Buy-SDK Was Chosen Because Of The Ability For The Client To Modify The Products Without Any Complex Coding Knowledge.  React Hooks And Session Storage Are Also Used Throughout The Project To Maintain The User Cart Items And Allows The Cart Count And Other Shopping Data To Be Displayed Universally Without The Need For Redux. Netlify Is Also An Obvious Choice For Deployment Because Of Its Speed And Reliability.",
+        thumbnailUrl: "/src/assets/images/3.jpg",
+      },
+      {
+        title: "Problems and Thought Process 👨‍⚖️",
+        summary:
+          "Like Most Projects, I Ran Into A Few Bumps Along The Way, One Particularly Difficult Area Was Organization And Structure Of The Code. Because Of This Project Size, I Realized How Important Maintaining An Organized Structure Would Be. I Worked Hard To Keep Components As Reusable As Possible And Utilized Props For Many Slight Variations. I Also Used Styled-Components, Because The Structure Of CSS-In-Js Is Much Clearer And Prevents Overrides.",
+        thumbnailUrl: "/src/assets/images/3.jpg",
+      },
+      {
+        title: "Lessons Learned 💡",
+        summary:
+          "I Could Spend All Day Describing The Lessons That I Learned While Working On This Project, But The Most Important Ones Involved My Newfound Understanding Of React Hooks, Git Management, Feature Keys, And API Integration. As My First Large Project Using React, I Learned A Lot Of Lessons Regarding Code Structure And Organization. When I First Began, I Would Write Sloppy Code And Move On, But Now I Know How Doing So Can Come Back To Bite You; I Now Spend A Lot More Time Refactoring And Improving Every Line I Code I Write, For The Best Readability And Far Fewer Headaches.",
+        thumbnailUrl: "/src/assets/images/3.jpg",
+      },
+    ],
   },
   {
     name: "Edemy",
@@ -49,6 +109,26 @@ const projects = [
     githubUrl: "https://github.com/Shubhofficial1",
     liveWebsite: "/",
     thumbnail: "/src/assets/images/4.jpg",
+    sections: [
+      {
+        title: "Web Stack and Explanation 🔥",
+        summary:
+          "React Made The Most Sense For The Web Application Because It Required To Connect To GraphQL And The Shopify-SDK For Javascript Ties Into React Very Smoothly. The Shopify-Buy-SDK Was Chosen Because Of The Ability For The Client To Modify The Products Without Any Complex Coding Knowledge. React Hooks And Session Storage Are Also Used Throughout The Project To Maintain The User Cart Items And Allows The Cart Count And Other Shopping Data To Be Displayed Universally Without The Need For Redux. Netlify Is Also An Obvious Choice For Deployment Because Of Its Speed And Reliability.",
+        thumbnailUrl: "/src/assets/images/4.jpg",
+      },
+      {
+        title: "Problems and Thought Process 👨‍⚖️",
+        summary:
+          "Like Most Projects, I Ran Into A Few Bumps Along The Way, One Particularly Difficult Area Was Organization And Structure Of The Code. Because Of This Project Size, I Realized How Important Maintaining An Organized Structure Would Be. I Worked Hard To Keep Components As Reusable As Possible And Utilized Props For Many Slight Variations. I Also Used Styled-Components, Because The Structure Of CSS-In-Js Is Much Clearer And Prevents Overrides.",
+        thumbnailUrl: "/src/assets/images/4.jpg",
+      },
+      {
+        title: "Lessons Learned 💡",
+        summary:
+          "I Could Spend All Day Describing The Lessons That I Learned While Working On This Project, But The Most Important Ones Involved My Newfound Understanding Of React Hooks, Git Management, Feature Keys, And API Integration. As My First Large Project Using React, I Learned A Lot Of Lessons Regarding Code Structure And Organization. When I First Began, I Would Write Sloppy Code And Move On, But Now I Know How Doing So Can Come Back To Bite You; I Now Spend A Lot More Time Refactoring And Improving Every Line I Code I Write, For The Best Readability And Far Fewer Headaches.",
+        thumbnailUrl: "/src/assets/images/4.jpg",
+      },
+    ],
   },
 ];
 
