@@ -1,4 +1,3 @@
-import Button from "./ui/Button";
 import profileImage from "../assets/images/profile.webp";
 import {
   StarIcon,
@@ -38,19 +37,26 @@ const Hero = () => {
         </p>
 
         <div className="flex md:flex-row flex-col justify-center items-center gap-y-4 sm:gap-x-4 md:gap-y-0 my-6 md:my-8">
-          <Button onClick={() => {}}>
+          <a
+            className={`px-5 py-3 min-w-[200px] bg-slate-800  rounded-lg cursor-pointer transition hover:scale-105 flex items-center justify-center gap-3`}
+            href="mailto:[shubhofficial1@gmail.com]?subject=Let's Collaborate!&body=Hi Shubham,%0D%0A%0D%0AI came across your portfolio and I'm impressed by your work. I'd love to discuss potential collaboration opportunities with you.%0D%0A%0D%0AThanks,%0D%0A[Your Name]"
+          >
             <h1 className="font-bold text-lg text-white tracking-tight">
               Contact Me
             </h1>
             <EnvelopeIcon className="size-6" />
-          </Button>
+          </a>
 
-          <Button bgColor="bg-indigo-500" onClick={() => {}}>
+          <a
+            className={`px-5 py-3 min-w-[200px] bg-indigo-500  rounded-lg cursor-pointer transition hover:scale-105 flex items-center justify-center gap-3`}
+            href="/Resume.pdf"
+            download={"SHUBHAM KUMAR"}
+          >
             <h1 className="font-bold text-lg text-white tracking-tight">
               Download CV
             </h1>
             <FolderArrowDownIcon className="size-6" />
-          </Button>
+          </a>
         </div>
       </div>
     </div>
