@@ -7,10 +7,10 @@ const skills = [
 
 const projects = [
   {
-    name: "Collaborative Whiteboard",
-    slug: "collaborative-whiteboard",
+    name: "SketchSync",
+    slug: "sketch-sync",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga soluta esse nesciunt, voluptatum veniam architecto magnam corporis assumenda mollitia beatae.",
+      "SketchSync is a real-time collaborative whiteboard enabling seamless drawing and brainstorming sessions. Leveraging Socket.io, React, Node, Express and Tailwind, I crafted an interactive tool for effective team collaboration.",
     type: "Personal",
     stack: ["React", "Socket.io", "tailwind", "NodeJS"],
     githubUrl: "https://github.com/Shubhofficial1",
@@ -38,12 +38,12 @@ const projects = [
     ],
   },
   {
-    name: "Connect",
-    slug: "connect",
+    name: "PeerTalk",
+    slug: "peer-talk",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga soluta esse nesciunt, voluptatum veniam architecto magnam corporis assumenda mollitia beatae.",
+      "PeerTal is a WebRTC-based application for seamless video communication between two users. Built with WebRTC, React, Node, Tailwind, and Express, it offers a smooth and responsive video chat experience.",
     type: "Personal",
-    stack: ["React", "Socket.io", "tailwind", "NodeJS"],
+    stack: ["React", "WebRTC", "Tailwind", "NodeJS"],
     githubUrl: "https://github.com/Shubhofficial1",
     liveWebsite: "/",
     thumbnail: "/src/assets/images/2.jpg",
@@ -72,7 +72,7 @@ const projects = [
     name: "Proshop",
     slug: "proshop",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga soluta esse nesciunt, voluptatum veniam architecto magnam corporis assumenda mollitia beatae.",
+      "I built ProShop, a robust online e-commerce platform using the MERN stack and React-Bootstrap. It provides a seamless shopping experience with a modern, responsive design and efficient user interactions.",
     type: "Personal",
     stack: ["React", "Socket.io", "tailwind", "NodeJS"],
     githubUrl: "https://github.com/Shubhofficial1",
@@ -103,7 +103,7 @@ const projects = [
     name: "Edemy",
     slug: "edemy",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga soluta esse nesciunt, voluptatum veniam architecto magnam corporis assumenda mollitia beatae.",
+      "I developed Edemy, a comprehensive online learning management system utilizing React, Tailwind, Redux, Redis, and TypeScript. It offers a dynamic and user-friendly interface for an enhanced educational experience.",
     type: "Personal",
     stack: ["React", "Socket.io", "tailwind", "NodeJS"],
     githubUrl: "https://github.com/Shubhofficial1",
