@@ -9,6 +9,7 @@ import githubLogo from "../assets/logos/github.svg";
 import awsLogo from "../assets/logos/aws.svg";
 import graphqlLogo from "../assets/logos/graphql.svg";
 import { motion } from "framer-motion";
+import SkillCard from "./SkillCard";
 
 const skills = [
   { src: reactLogo, alt: "React" },
@@ -35,6 +36,7 @@ const Skills = () => {
         <h1 className="mb-2 line-clamp-2 font-bold text-[40px] capitalize tracking-normal">
           My Skills
         </h1>
+
         <p className="mb-5 line-clamp-5 md:line-clamp-3 max-w-4xl font-medium text-[16px] text-slate-500 tracking-wide">
           Through my studies, I've gained a solid understanding of computer
           science and web development concepts, and have dedicated a lot of my
@@ -54,41 +56,10 @@ const Skills = () => {
             className="flex flex-none gap-16 pr-16"
           >
             {skills.map((skill: ISkill) => (
-              <div
-                className="flex flex-col justify-center items-center text-slate-500"
-                key={skill.alt}
-              >
-                <div className="border-[1px] border-slate-700/20 hover:bg-slate-700/20 rounded-lg w-[140px] h-[140px] overflow-hidden">
-                  <img
-                    src={skill.src}
-                    alt={skill.alt}
-                    className="flex-none w-full h-full"
-                  />
-                </div>
-                <h1 className="mt-2 line-clamp-1 font-medium text-[18px] text-500 capitalize tracking-wide">
-                  {skill.alt}
-                </h1>
-              </div>
+              <SkillCard skill={skill} key={skill.alt} />
             ))}
             {skills.map((skill: ISkill) => (
-              <div
-                className="flex flex-col justify-center items-center text-slate-500"
-                key={skill.alt}
-              >
-                <div
-                  className="border-[1px] border-slate-700/20 hover:bg-slate-700/20 rounded-lg w-[140px] h-[140px] overflow-hidden"
-                  key={skill.alt}
-                >
-                  <img
-                    src={skill.src}
-                    alt={skill.alt}
-                    className="flex-none w-full h-full"
-                  />
-                </div>
-                <h1 className="mt-2 line-clamp-1 font-medium text-[18px] text-500 capitalize tracking-wide">
-                  {skill.alt}
-                </h1>
-              </div>
+              <SkillCard skill={skill} key={skill.alt} />
             ))}
           </motion.div>
         </div>
