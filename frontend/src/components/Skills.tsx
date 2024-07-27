@@ -24,11 +24,6 @@ const skills = [
   { src: graphqlLogo, alt: "Graphql" },
 ];
 
-interface ISkill {
-  src: string;
-  alt: string;
-}
-
 const Skills = () => {
   return (
     <div className="bg-[#0D0F11] py-36 text-white">
@@ -55,10 +50,10 @@ const Skills = () => {
             animate={{ translateX: "-50%" }}
             className="flex flex-none gap-16 pr-16"
           >
-            {skills.map((skill: ISkill) => (
+            {skills.map((skill) => (
               <SkillCard skill={skill} key={skill.alt} />
             ))}
-            {skills.map((skill: ISkill) => (
+            {skills.map((skill) => (
               <SkillCard skill={skill} key={skill.alt} />
             ))}
           </motion.div>

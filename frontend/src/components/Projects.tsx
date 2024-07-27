@@ -1,17 +1,6 @@
 import { projects } from "../data";
 import ProjectCard from "./ProjectCard";
 
-interface IProjects {
-  name: string;
-  slug: string;
-  description: string;
-  type: string;
-  stack: string[];
-  githubUrl: string;
-  liveWebsite: string;
-  thumbnail: string;
-}
-
 const Projects = () => {
   return (
     <div className="bg-[#0D0F11] py-36 text-white">

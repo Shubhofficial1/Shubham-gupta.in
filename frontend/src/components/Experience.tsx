@@ -1,16 +1,6 @@
 import { experiences } from "../data";
 import ExperienceCard from "./ExperienceCard";
 
-interface IExperience {
-  _id: number;
-  joiningDate: string;
-  completionDate: string;
-  duration: string;
-  position: string;
-  company: string;
-  companyShortName: string;
-}
-
 const Experience = () => {
   return (
     <div className="bg-[#0D0F11] pt-20 pb-32 text-white">
@@ -29,7 +19,7 @@ const Experience = () => {
           <h1 className="mb-5 font-bold text-[18px] text-white capitalize tracking-normal">
             Career Journey
           </h1>
-          {experiences.map((experience: IExperience) => (
+          {experiences.map((experience) => (
             <ExperienceCard experience={experience} key={experience._id} />
           ))}
         </div>
