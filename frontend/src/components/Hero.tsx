@@ -25,9 +25,9 @@ const Hero = () => {
           </span>
         </h1>
 
-        <h3 className="my-1 font-extrabold text-[28px] text-center text-indigo-500 underline underline-offset-8 tracking-tight">
+        <h2 className="my-1 font-extrabold text-[28px] text-center text-indigo-500 underline underline-offset-8 tracking-tight">
           Front End Developer, Learner And Minimalist
-        </h3>
+        </h2>
 
         <p className="mt-6 line-clamp-4 md:line-clamp-none max-w-2xl font-medium text-[18px] text-center tracking-tight">
           I'm a 24-year-old student at Uttar Pradesh Technical University,
