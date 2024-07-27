@@ -26,7 +26,7 @@ const ProjectDetailsScreen = () => {
   return (
     <div className="bg-[#0D0F11] py-[72px] sm:py-24 text-white">
       <div className="container">
-        <Link to={"/"}>
+        <Link to={"/"} aria-label="Go back">
           <ArrowLeftCircleIcon className="border-slate-800 hover:border-[2px] mb-8 rounded-full cursor-pointer fill-slate-600 size-14" />
         </Link>
         <div className="bg-gradient-to-b from-[#151a21]/[.5] to-[#151a21]/[1] rounded-lg w-full h-[400px] overflow-hidden select-none">
