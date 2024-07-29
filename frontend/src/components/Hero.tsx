@@ -29,11 +29,12 @@ const Hero = () => {
           Front End Developer, Learner And Minimalist
         </h2>
 
-        <p className="mt-6 line-clamp-4 md:line-clamp-none max-w-2xl font-medium text-[18px] text-center tracking-tight">
-          I'm a 24-year-old student at Uttar Pradesh Technical University,
-          currently studying web development and design. As I've grown as a
-          developer, I've worked alongside senior designers and developers who
-          have raised my standards for what is expected of any web application.
+        <p className="mt-6 line-clamp-4 md:line-clamp-none max-w-2xl font-semibold text-[18px] text-center tracking-tight">
+          A web development professional with 4 years of experience in the
+          field. Over the years, I've collaborated with talented developers who
+          have continuously raised the bar for what a web application should be.
+          I'm passionate about creating sleek, efficient, and user-friendly
+          applications that stand out.
         </p>
 
         <div className="flex md:flex-row flex-col justify-center items-center gap-y-4 sm:gap-x-4 md:gap-y-0 my-6 md:my-8">

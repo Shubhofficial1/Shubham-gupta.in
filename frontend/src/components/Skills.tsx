@@ -33,10 +33,11 @@ const Skills = () => {
         </h1>
 
         <p className="mb-5 line-clamp-5 md:line-clamp-3 max-w-4xl font-medium text-[16px] text-slate-500 tracking-wide">
-          Through my studies, I've gained a solid understanding of computer
-          science and web development concepts, and have dedicated a lot of my
-          free time to apply these concepts to real-world scenarios and
-          applications.
+          From diving deep into computer science theories to building practical
+          web applications, I've honed my skills through both study and hands-on
+          experience. I've spent countless hours turning concepts into
+          real-world solutions, and I'm always eager to learn more and tackle
+          new challenges.
         </p>
 
         <div className="relative before:top-0 after:top-0 before:bg-[linear-gradient(to_right,#0D0F11,rgb(0,0,0,0))] after:right-0 before:left-0 after:bg-[linear-gradient(to_left,#0D0F11,rgb(0,0,0,0))] before:z-10 before:absolute after:absolute flex before:content-[''] after:content-[''] mt-20 before:w-5 after:w-5 before:h-full after:h-full overflow-hidden select-none">
