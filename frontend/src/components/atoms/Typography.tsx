@@ -7,30 +7,33 @@ type TypographyProps = React.HTMLAttributes<HTMLHeadingElement> & {
   weight?: "light" | "normal" | "medium" | "semibold" | "bold";
 };
 
-const typographyVariants = cva("capitalize tracking-normal", {
-  variants: {
-    size: {
-      xs: "text-[14px]",
-      sm: "text-[16px]",
-      base: "text-[18px]",
-      md: "text-[24px]",
-      lg: "text-[40px]",
+const typographyVariants = cva(
+  "tracking-normal selection:bg-indigo-500 selection:text-white",
+  {
+    variants: {
+      size: {
+        xs: "text-[14px]",
+        sm: "text-[16px]",
+        base: "text-[18px]",
+        md: "text-[24px]",
+        lg: "text-[40px]",
+      },
+      color: { white: "text-white", slate: "text-slate-500" },
+      weight: {
+        light: "font-light",
+        normal: "font-normal",
+        medium: "font-medium",
+        semibold: "font-semibold",
+        bold: "font-bold",
+      },
     },
-    color: { white: "text-white", slate: "text-slate-500" },
-    weight: {
-      light: "font-light",
-      normal: "font-normal",
-      medium: "font-medium",
-      semibold: "font-semibold",
-      bold: "font-bold",
+    defaultVariants: {
+      size: "base",
+      color: "white",
+      weight: "normal",
     },
-  },
-  defaultVariants: {
-    size: "base",
-    color: "white",
-    weight: "normal",
-  },
-});
+  }
+);
 
 export default function Typography({
   className,

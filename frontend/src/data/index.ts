@@ -1,9 +1,13 @@
-const skills = [
-  { title: "Proficient in React, Next.js, Redux toolkit, and Tailwind CSS." },
-  { title: "Experienced in back-end development with Node.js and Express." },
-  { title: "String problem-solving and analytical skills." },
-  { title: "Passionate about creating user-friendly experiences" },
-];
+import reactLogo from "../assets/logos/react.svg";
+import nextJsLogo from "../assets/logos/nextjs.svg";
+import javascriptLogo from "../assets/logos/javascript.svg";
+import mongoDbLogo from "../assets/logos/mongodb.svg";
+import prismaLogo from "../assets/logos/prisma.svg";
+import postgresLogo from "../assets/logos/postgres.svg";
+import redisLogo from "../assets/logos/redis.svg";
+import githubLogo from "../assets/logos/github.svg";
+import awsLogo from "../assets/logos/aws.svg";
+import graphqlLogo from "../assets/logos/graphql.svg";
 
 const projects = [
   {
@@ -153,4 +157,17 @@ const experiences = [
   },
 ];
 
-export { skills, projects, experiences };
+const skills = [
+  { src: reactLogo, alt: "React" },
+  { src: nextJsLogo, alt: "NextJS" },
+  { src: javascriptLogo, alt: "Javascript" },
+  { src: mongoDbLogo, alt: "MongoDB" },
+  { src: prismaLogo, alt: "Prisma" },
+  { src: postgresLogo, alt: "Postgres" },
+  { src: redisLogo, alt: "Redis" },
+  { src: githubLogo, alt: "Github" },
+  { src: awsLogo, alt: "Aws" },
+  { src: graphqlLogo, alt: "Graphql" },
+];
+
+export { projects, experiences, skills };

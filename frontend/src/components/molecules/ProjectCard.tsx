@@ -1,7 +1,7 @@
 import React from "react";
+import Typography from "../atoms/Typography";
+import Button from "../atoms/Button";
 import { useNavigate } from "react-router-dom";
-import Typography from "./atoms/Typography";
-import Button from "./atoms/Button";
 
 interface IProjects {
   name: string;
@@ -14,15 +14,14 @@ interface IProjects {
   thumbnail: string;
 }
 
-interface ProjectCardProps {
+interface IProjectCardProps {
   project: IProjects;
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
+const ProjectCard: React.FC<IProjectCardProps> = ({ project }) => {
   const navigate = useNavigate();
-
   return (
-    <div className="flex flex-col rounded-lg h-fit min-h-[480px]">
+    <div className="flex flex-col rounded-lg overflow-hidden h-fit min-h-[480px]">
       <div
         className="bg-gradient-to-b from-[#151a21]/[.5] to-[#151a21]/[1] rounded-lg w-full h-[300px] cursor-pointer overflow-hidden select-none"
         onClick={() => {
@@ -35,6 +34,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           className="w-full h-full object-cover"
         />
       </div>
+
       <div className="py-5">
         <Typography className="mb-2 line-clamp-2" weight="bold" size="md">
           {project.name}
@@ -57,7 +57,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           }}
         >
           VIEW PROJECT
-          <Typography className="" size="xs" weight="medium"></Typography>
         </Button>
       </div>
     </div>

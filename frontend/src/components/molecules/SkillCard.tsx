@@ -1,16 +1,16 @@
 import React from "react";
-import Typography from "./atoms/Typography";
+import Typography from "../atoms/Typography";
 
 interface ISkill {
   src: string;
   alt: string;
 }
 
-interface SkillCardProps {
+interface ISkillCardProps {
   skill: ISkill;
 }
 
-const SkillCard: React.FC<SkillCardProps> = ({ skill }) => {
+const SkillCard: React.FC<ISkillCardProps> = ({ skill }) => {
   return (
     <div className="flex flex-col justify-center items-center text-slate-500">
       <div className="border-[1px] border-slate-700/20 hover:bg-slate-700/20 rounded-lg w-[140px] h-[140px] overflow-hidden">

@@ -4,6 +4,7 @@ import { cn } from "../../utils/cn";
 type LinkProps = React.HTMLAttributes<HTMLAnchorElement> & {
   href: string;
   download?: string;
+  target?: string;
   bgColor?: "primary" | "dark" | "inherit";
 };
 
@@ -22,10 +23,12 @@ const linkVariants = cva(
     },
   }
 );
+
 export default function Link({
   className,
   href,
   download,
+  target,
   bgColor,
   ...props
 }: LinkProps) {
@@ -33,6 +36,7 @@ export default function Link({
     <a
       href={href}
       download={download}
+      target={target}
       {...props}
       className={cn(linkVariants({ bgColor }), className)}
     />

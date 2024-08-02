@@ -1,5 +1,5 @@
 import { CheckCircleIcon, BoltIcon } from "@heroicons/react/24/solid";
-import Typography from "./atoms/Typography";
+import Typography from "../atoms/Typography";
 
 interface IExperience {
   _id: number;
@@ -11,11 +11,11 @@ interface IExperience {
   companyShortName: string;
 }
 
-interface ExperienceCardProps {
+interface IExperienceCardProps {
   experience: IExperience;
 }
 
-const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
+const ExperienceCard: React.FC<IExperienceCardProps> = ({ experience }) => {
   return (
     <div className="flex items-center gap-x-5 border-[1px] border-slate-700 border-x-[1px] md:border-x-0 mb-2 md:mb-0 rounded-md md:rounded-none h-[100px]">
       <div className="md:flex flex-col justify-center items-end hidden px-5 min-w-[180px] h-full">
@@ -36,6 +36,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
           ({experience.duration})
         </Typography>
       </div>
+
       <div className="md:inline relative border-[1px] border-slate-700 hidden h-full">
         <span>
           {experience.completionDate === "Present" ? (
@@ -45,6 +46,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
           )}
         </span>
       </div>
+
       <div className="flex flex-col justify-center items-start px-5 h-full">
         <Typography
           className="line-clamp-1 font-bold text-[16px] text-slate-100"
