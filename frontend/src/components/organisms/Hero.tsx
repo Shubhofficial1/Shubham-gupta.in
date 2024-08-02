@@ -16,14 +16,14 @@ const Hero = () => {
           />
         </div>
 
-        <h1 className="mt-5 font-bold text-[46px] text-center tracking-wide select-none">
+        <h1 className="mt-5 font-bold text-[46px] text-center tracking-wide">
           Hi 👋, I'm{" "}
           <span className="bg-clip-text bg-gradient-to-r from-indigo-500 to-indigo-400 text-transparent [-webkit-background-clip:text]">
             Shubham
           </span>
         </h1>
 
-        <h2 className="my-1 font-extrabold text-[28px] text-center text-indigo-500 underline underline-offset-8 tracking-tight select-none">
+        <h2 className="my-1 font-extrabold text-[28px] text-center text-indigo-500 underline underline-offset-8 tracking-tight ">
           Front End Developer, Learner And Minimalist
         </h2>
 
