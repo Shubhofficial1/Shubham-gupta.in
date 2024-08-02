@@ -1,4 +1,5 @@
 import React from "react";
+import Typography from "./atoms/Typography";
 
 interface ISkill {
   src: string;
@@ -19,9 +20,14 @@ const SkillCard: React.FC<SkillCardProps> = ({ skill }) => {
           className="flex-none w-full h-full"
         />
       </div>
-      <h1 className="mt-2 line-clamp-1 font-medium text-[18px] text-500 capitalize tracking-wide">
+      <Typography
+        className="mt-2 line-clamp-1 tracking-wide"
+        weight="medium"
+        color="slate"
+        size="sm"
+      >
         {skill.alt}
-      </h1>
+      </Typography>
     </div>
   );
 };

@@ -10,6 +10,7 @@ import awsLogo from "../assets/logos/aws.svg";
 import graphqlLogo from "../assets/logos/graphql.svg";
 import { motion } from "framer-motion";
 import SkillCard from "./SkillCard";
+import Typography from "./atoms/Typography";
 
 const skills = [
   { src: reactLogo, alt: "React" },
@@ -28,17 +29,22 @@ const Skills = () => {
   return (
     <div className="bg-[#0D0F11] py-36 text-white">
       <div className="container">
-        <h1 className="mb-2 line-clamp-2 font-bold text-[40px] capitalize tracking-normal">
+        <Typography className="mb-2 line-clamp-2" weight="bold" size="lg">
           My Skills
-        </h1>
+        </Typography>
 
-        <p className="mb-5 line-clamp-5 md:line-clamp-3 max-w-4xl font-medium text-[16px] text-slate-500 tracking-wide">
+        <Typography
+          className="mb-5 line-clamp-5 md:line-clamp-3 max-w-4xl tracking-wide"
+          size="sm"
+          color="slate"
+          weight="medium"
+        >
           From diving deep into computer science theories to building practical
           web applications, I've honed my skills through both study and hands-on
           experience. I've spent countless hours turning concepts into
           real-world solutions, and I'm always eager to learn more and tackle
           new challenges.
-        </p>
+        </Typography>
 
         <div className="relative before:top-0 after:top-0 before:bg-[linear-gradient(to_right,#0D0F11,rgb(0,0,0,0))] after:right-0 before:left-0 after:bg-[linear-gradient(to_left,#0D0F11,rgb(0,0,0,0))] before:z-10 before:absolute after:absolute flex before:content-[''] after:content-[''] mt-20 before:w-5 after:w-5 before:h-full after:h-full overflow-hidden select-none">
           <motion.div

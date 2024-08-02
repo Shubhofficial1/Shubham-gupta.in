@@ -1,8 +1,10 @@
+import Typography from "./atoms/Typography";
+
 const Banner = () => {
   return (
     <div className="bg-[linear-gradient(to_right,#29D8FF,#623cea,#ff6978)] py-3 text-center">
       <div className="container">
-        <p className="bg-inherit font-medium tracking-tight">
+        <Typography weight="medium" size="sm" className="tracking-tight">
           <span className="sm:inline hidden">
             Seeking Talent? Discover a Developer Ready to Drive Your Success -{" "}
           </span>
@@ -13,7 +15,7 @@ const Banner = () => {
           >
             Get In Touch 📅
           </a>
-        </p>
+        </Typography>
       </div>
     </div>
   );

@@ -1,5 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import Typography from "./atoms/Typography";
+import Button from "./atoms/Button";
 
 interface IProjects {
   name: string;
@@ -34,20 +36,29 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         />
       </div>
       <div className="py-5">
-        <h1 className="mb-2 line-clamp-2 font-bold text-[24px] capitalize tracking-normal">
+        <Typography className="mb-2 line-clamp-2" weight="bold" size="md">
           {project.name}
-        </h1>
-        <p className="mb-5 line-clamp-3 font-medium text-[14px] text-slate-500 tracking-wide">
+        </Typography>
+
+        <Typography
+          className="mb-5 line-clamp-3 tracking-wide"
+          weight="medium"
+          size="xs"
+          color="slate"
+        >
           {project.description}
-        </p>
-        <button
-          className="line-clamp-2 font-medium text-[14px] text-slate-500 underline underline-offset-4 uppercase tracking-normal"
+        </Typography>
+
+        <Button
+          variant="ghost"
+          className="underline underline-offset-4 uppercase"
           onClick={() => {
             navigate(`/projects/${project.slug}`);
           }}
         >
           VIEW PROJECT
-        </button>
+          <Typography className="" size="xs" weight="medium"></Typography>
+        </Button>
       </div>
     </div>
   );
