@@ -1,4 +1,4 @@
-import profileImage from "../../assets/images/profile.webp";
+import profileImage from "/assets/images/profile.webp";
 import Typography from "../atoms/Typography";
 import CtaButtons from "../molecules/CtaButtons";
 import { StarIcon } from "@heroicons/react/24/solid";

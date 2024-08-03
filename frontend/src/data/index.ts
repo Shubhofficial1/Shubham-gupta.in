@@ -1,13 +1,13 @@
-import reactLogo from "../assets/logos/react.svg";
-import nextJsLogo from "../assets/logos/nextjs.svg";
-import javascriptLogo from "../assets/logos/javascript.svg";
-import mongoDbLogo from "../assets/logos/mongodb.svg";
-import prismaLogo from "../assets/logos/prisma.svg";
-import postgresLogo from "../assets/logos/postgres.svg";
-import redisLogo from "../assets/logos/redis.svg";
-import githubLogo from "../assets/logos/github.svg";
-import awsLogo from "../assets/logos/aws.svg";
-import graphqlLogo from "../assets/logos/graphql.svg";
+import reactLogo from "/assets/logos/react.svg";
+import nextJsLogo from "/assets/logos/nextjs.svg";
+import javascriptLogo from "/assets/logos/javascript.svg";
+import mongoDbLogo from "/assets/logos/mongodb.svg";
+import prismaLogo from "/assets/logos/prisma.svg";
+import postgresLogo from "/assets/logos/postgres.svg";
+import redisLogo from "/assets/logos/redis.svg";
+import githubLogo from "/assets/logos/github.svg";
+import awsLogo from "/assets/logos/aws.svg";
+import graphqlLogo from "/assets/logos/graphql.svg";
 
 const projects = [
   {
