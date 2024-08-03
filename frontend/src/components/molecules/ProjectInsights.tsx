@@ -2,8 +2,7 @@ import Typography from "../atoms/Typography";
 
 interface IProjectSection {
   title: string;
-  summary: string;
-  thumbnailUrl: string;
+  steps: string[];
 }
 
 interface IProjects {
