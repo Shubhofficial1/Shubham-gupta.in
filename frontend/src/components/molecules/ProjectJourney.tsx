@@ -1,9 +1,13 @@
 import Typography from "../atoms/Typography";
+import {
+  LightBulbIcon,
+  BookOpenIcon,
+  FireIcon,
+} from "@heroicons/react/24/outline";
 
 interface ISections {
   title: string;
-  summary: string;
-  thumbnailUrl: string;
+  steps: string[];
 }
 
 interface IProjectJourneyProps {
@@ -12,35 +16,35 @@ interface IProjectJourneyProps {
 
 const ProjectJourney: React.FC<IProjectJourneyProps> = ({ sections }) => {
   return (
-    <div className="flex flex-col gap-y-32 md:gap-y-52 lg:gap-y-80 my-32">
-      {sections.map((section, index) => (
-        <div
-          className="gap-x-32 gap-y-10 grid grid-cols-1 lg:grid-cols-2"
-          key={section.title}
-        >
-          <div
-            className={`bg-gradient-to-b from-[#151a21]/[.5] to-[#151a21]/[1] rounded-lg w-full h-[350px]  overflow-hidden  ${
-              index % 2 === 1 ? "lg:order-last" : ""
-            }`}
-          >
-            <img
-              src={section.thumbnailUrl}
-              alt={section.title}
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <div className="h-full">
-            <Typography className="mb-5 text-[32px]" weight="bold">
-              {section.title}
-            </Typography>
-            <Typography
-              className="leading-relaxed tracking-wide"
-              weight="medium"
-              size="xs"
-              color="slate"
-            >
-              {section.summary}
-            </Typography>
+    <div className="flex flex-col max-w-3xl my-36 ">
+      {sections.map((section) => (
+        <div className="mb-20 " key={section.title}>
+          <Typography className="my-5 line-clamp-2" weight="bold" size="md">
+            {section.title}
+          </Typography>
+
+          <div className="border-l-2 border-indigo-200 bg-[#1B1F29] p-5 rounded-md  my-10 relative">
+            {section.title === "Web Stack and Explanation 🔥" && (
+              <FireIcon className="hidden lg:block absolute -top-7 -left-7 size-14 text-orange-300  bg-[#0D0F11]  rounded-full p-2 " />
+            )}
+            {section.title === "Problems and Thought Process 👨‍⚖️" && (
+              <BookOpenIcon className=" hidden lg:block absolute -top-7 -left-7 size-14 text-sky-300  bg-[#0D0F11] rounded-full p-2 " />
+            )}
+            {section.title === "Lessons Learned 💡" && (
+              <LightBulbIcon className="hidden lg:block absolute -top-7 -left-7 size-14 text-yellow-300  bg-[#0D0F11] rounded-full p-2 " />
+            )}
+            {section.steps.map((step) => (
+              <div className="mb-5 px-2" key={step}>
+                <Typography
+                  className="my-3 max-w-4xl tracking-wide "
+                  weight="medium"
+                  size="sm"
+                  color="white"
+                >
+                  {step}
+                </Typography>
+              </div>
+            ))}
           </div>
         </div>
       ))}

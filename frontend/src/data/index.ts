@@ -23,21 +23,32 @@ const projects = [
     sections: [
       {
         title: "Web Stack and Explanation 🔥",
-        summary:
-          "React Made The Most Sense For The Web Application Because It Required To Connect To GraphQL And The Shopify-SDK For Javascript Ties Into React Very Smoothly. The Shopify-Buy-SDK Was Chosen Because Of The Ability For The Client To Modify The Products Without Any Complex Coding Knowledge. React Hooks And Session Storage Are Also Used Throughout The Project To Maintain The User Cart Items And Allows The Cart Count And Other Shopping Data To Be Displayed Universally Without The Need For Redux. Netlify Is Also An Obvious Choice For Deployment Because Of Its Speed And Reliability.",
-        thumbnailUrl: "/src/assets/images/1.jpg",
+        steps: [
+          "React: Chosen for its ability to seamlessly connect with GraphQL and the Shopify-SDK for JavaScript, providing a smooth integration and dynamic user experience.",
+          "Tailwind CSS: Used for its utility-first CSS framework, enabling rapid UI development with custom styles.",
+          "Redux: Implemented for state management, ensuring a predictable and consistent state across the application.",
+          "Redis: Utilized for caching and fast data retrieval, enhancing application performance.",
+          "TypeScript: Adopted for its static typing, which improves code quality and maintainability.",
+        ],
       },
       {
         title: "Problems and Thought Process 👨‍⚖️",
-        summary:
-          "Like Most Projects, I Ran Into A Few Bumps Along The Way, One Particularly Difficult Area Was Organization And Structure Of The Code. Because Of This Project Size, I Realized How Important Maintaining An Organized Structure Would Be. I Worked Hard To Keep Components As Reusable As Possible And Utilized Props For Many Slight Variations. I Also Used Styled-Components, Because The Structure Of CSS-In-Js Is Much Clearer And Prevents Overrides.",
-        thumbnailUrl: "/src/assets/images/1.jpg",
+        steps: [
+          "Integration with GraphQL: Ensured that React components could efficiently communicate with the GraphQL API for data fetching and mutation.",
+          "State Management: Implemented Redux to manage the application state, making it easier to handle complex state logic.",
+          "Performance Optimization: Utilized Redis for caching to speed up data retrieval and improve the overall performance of the application.",
+          "User Interface Design: Leveraged Tailwind CSS for a responsive and aesthetically pleasing UI, enhancing the user experience.",
+        ],
       },
       {
         title: "Lessons Learned 💡",
-        summary:
-          "I Could Spend All Day Describing The Lessons That I Learned While Working On This Project, But The Most Important Ones Involved My Newfound Understanding Of React Hooks, Git Management, Feature Keys, And API Integration. As My First Large Project Using React, I Learned A Lot Of Lessons Regarding Code Structure And Organization. When I First Began, I Would Write Sloppy Code And Move On, But Now I Know How Doing So Can Come Back To Bite You; I Now Spend A Lot More Time Refactoring And Improving Every Line I Code I Write, For The Best Readability And Far Fewer Headaches.",
-        thumbnailUrl: "/src/assets/images/1.jpg",
+        steps: [
+          "GraphQL Integration: Gained a deeper understanding of integrating GraphQL with React, improving data fetching strategies.",
+          "State Management: Enhanced skills in using Redux for managing application state, leading to more efficient and maintainable code.",
+          "Performance Optimization: Learned the importance of caching and the benefits it brings to application performance using Redis.",
+          "UI Development: Improved proficiency in using Tailwind CSS for rapid and responsive UI development.",
+          "TypeScript: Strengthened knowledge of TypeScript, leading to better code quality and reduced bugs.",
+        ],
       },
     ],
   },
@@ -54,21 +65,32 @@ const projects = [
     sections: [
       {
         title: "Web Stack and Explanation 🔥",
-        summary:
-          "React Made The Most Sense For The Web Application Because It Required To Connect To GraphQL And The Shopify-SDK For Javascript Ties Into React Very Smoothly. The Shopify-Buy-SDK Was Chosen Because Of The Ability For The Client To Modify The Products Without Any Complex Coding Knowledge.  React Hooks And Session Storage Are Also Used Throughout The Project To Maintain The User Cart Items And Allows The Cart Count And Other Shopping Data To Be Displayed Universally Without The Need For Redux. Netlify Is Also An Obvious Choice For Deployment Because Of Its Speed And Reliability.",
-        thumbnailUrl: "/src/assets/images/2.jpg",
+        steps: [
+          "React: Chosen for its ability to seamlessly connect with GraphQL and the Shopify-SDK for JavaScript, providing a smooth integration and dynamic user experience.",
+          "Tailwind CSS: Used for its utility-first CSS framework, enabling rapid UI development with custom styles.",
+          "Redux: Implemented for state management, ensuring a predictable and consistent state across the application.",
+          "Redis: Utilized for caching and fast data retrieval, enhancing application performance.",
+          "TypeScript: Adopted for its static typing, which improves code quality and maintainability.",
+        ],
       },
       {
         title: "Problems and Thought Process 👨‍⚖️",
-        summary:
-          "Like Most Projects, I Ran Into A Few Bumps Along The Way, One Particularly Difficult Area Was Organization And Structure Of The Code. Because Of This Project Size, I Realized How Important Maintaining An Organized Structure Would Be. I Worked Hard To Keep Components As Reusable As Possible And Utilized Props For Many Slight Variations. I Also Used Styled-Components, Because The Structure Of CSS-In-Js Is Much Clearer And Prevents Overrides.",
-        thumbnailUrl: "/src/assets/images/2.jpg",
+        steps: [
+          "Integration with GraphQL: Ensured that React components could efficiently communicate with the GraphQL API for data fetching and mutation.",
+          "State Management: Implemented Redux to manage the application state, making it easier to handle complex state logic.",
+          "Performance Optimization: Utilized Redis for caching to speed up data retrieval and improve the overall performance of the application.",
+          "User Interface Design: Leveraged Tailwind CSS for a responsive and aesthetically pleasing UI, enhancing the user experience.",
+        ],
       },
       {
         title: "Lessons Learned 💡",
-        summary:
-          "I Could Spend All Day Describing The Lessons That I Learned While Working On This Project, But The Most Important Ones Involved My Newfound Understanding Of React Hooks, Git Management, Feature Keys, And API Integration. As My First Large Project Using React, I Learned A Lot Of Lessons Regarding Code Structure And Organization. When I First Began, I Would Write Sloppy Code And Move On, But Now I Know How Doing So Can Come Back To Bite You; I Now Spend A Lot More Time Refactoring And Improving Every Line I Code I Write, For The Best Readability And Far Fewer Headaches.",
-        thumbnailUrl: "/src/assets/images/2.jpg",
+        steps: [
+          "GraphQL Integration: Gained a deeper understanding of integrating GraphQL with React, improving data fetching strategies.",
+          "State Management: Enhanced skills in using Redux for managing application state, leading to more efficient and maintainable code.",
+          "Performance Optimization: Learned the importance of caching and the benefits it brings to application performance using Redis.",
+          "UI Development: Improved proficiency in using Tailwind CSS for rapid and responsive UI development.",
+          "TypeScript: Strengthened knowledge of TypeScript, leading to better code quality and reduced bugs.",
+        ],
       },
     ],
   },
@@ -85,21 +107,32 @@ const projects = [
     sections: [
       {
         title: "Web Stack and Explanation 🔥",
-        summary:
-          "React Made The Most Sense For The Web Application Because It Required To Connect To GraphQL And The Shopify-SDK For Javascript Ties Into React Very Smoothly. The Shopify-Buy-SDK Was Chosen Because Of The Ability For The Client To Modify The Products Without Any Complex Coding Knowledge.  React Hooks And Session Storage Are Also Used Throughout The Project To Maintain The User Cart Items And Allows The Cart Count And Other Shopping Data To Be Displayed Universally Without The Need For Redux. Netlify Is Also An Obvious Choice For Deployment Because Of Its Speed And Reliability.",
-        thumbnailUrl: "/src/assets/images/3.jpg",
+        steps: [
+          "React: Chosen for its ability to seamlessly connect with GraphQL and the Shopify-SDK for JavaScript, providing a smooth integration and dynamic user experience.",
+          "Tailwind CSS: Used for its utility-first CSS framework, enabling rapid UI development with custom styles.",
+          "Redux: Implemented for state management, ensuring a predictable and consistent state across the application.",
+          "Redis: Utilized for caching and fast data retrieval, enhancing application performance.",
+          "TypeScript: Adopted for its static typing, which improves code quality and maintainability.",
+        ],
       },
       {
         title: "Problems and Thought Process 👨‍⚖️",
-        summary:
-          "Like Most Projects, I Ran Into A Few Bumps Along The Way, One Particularly Difficult Area Was Organization And Structure Of The Code. Because Of This Project Size, I Realized How Important Maintaining An Organized Structure Would Be. I Worked Hard To Keep Components As Reusable As Possible And Utilized Props For Many Slight Variations. I Also Used Styled-Components, Because The Structure Of CSS-In-Js Is Much Clearer And Prevents Overrides.",
-        thumbnailUrl: "/src/assets/images/3.jpg",
+        steps: [
+          "Integration with GraphQL: Ensured that React components could efficiently communicate with the GraphQL API for data fetching and mutation.",
+          "State Management: Implemented Redux to manage the application state, making it easier to handle complex state logic.",
+          "Performance Optimization: Utilized Redis for caching to speed up data retrieval and improve the overall performance of the application.",
+          "User Interface Design: Leveraged Tailwind CSS for a responsive and aesthetically pleasing UI, enhancing the user experience.",
+        ],
       },
       {
         title: "Lessons Learned 💡",
-        summary:
-          "I Could Spend All Day Describing The Lessons That I Learned While Working On This Project, But The Most Important Ones Involved My Newfound Understanding Of React Hooks, Git Management, Feature Keys, And API Integration. As My First Large Project Using React, I Learned A Lot Of Lessons Regarding Code Structure And Organization. When I First Began, I Would Write Sloppy Code And Move On, But Now I Know How Doing So Can Come Back To Bite You; I Now Spend A Lot More Time Refactoring And Improving Every Line I Code I Write, For The Best Readability And Far Fewer Headaches.",
-        thumbnailUrl: "/src/assets/images/3.jpg",
+        steps: [
+          "GraphQL Integration: Gained a deeper understanding of integrating GraphQL with React, improving data fetching strategies.",
+          "State Management: Enhanced skills in using Redux for managing application state, leading to more efficient and maintainable code.",
+          "Performance Optimization: Learned the importance of caching and the benefits it brings to application performance using Redis.",
+          "UI Development: Improved proficiency in using Tailwind CSS for rapid and responsive UI development.",
+          "TypeScript: Strengthened knowledge of TypeScript, leading to better code quality and reduced bugs.",
+        ],
       },
     ],
   },
@@ -116,21 +149,32 @@ const projects = [
     sections: [
       {
         title: "Web Stack and Explanation 🔥",
-        summary:
-          "React Made The Most Sense For The Web Application Because It Required To Connect To GraphQL And The Shopify-SDK For Javascript Ties Into React Very Smoothly. The Shopify-Buy-SDK Was Chosen Because Of The Ability For The Client To Modify The Products Without Any Complex Coding Knowledge. React Hooks And Session Storage Are Also Used Throughout The Project To Maintain The User Cart Items And Allows The Cart Count And Other Shopping Data To Be Displayed Universally Without The Need For Redux. Netlify Is Also An Obvious Choice For Deployment Because Of Its Speed And Reliability.",
-        thumbnailUrl: "/src/assets/images/4.jpg",
+        steps: [
+          "React: Chosen for its ability to seamlessly connect with GraphQL and the Shopify-SDK for JavaScript, providing a smooth integration and dynamic user experience.",
+          "Tailwind CSS: Used for its utility-first CSS framework, enabling rapid UI development with custom styles.",
+          "Redux: Implemented for state management, ensuring a predictable and consistent state across the application.",
+          "Redis: Utilized for caching and fast data retrieval, enhancing application performance.",
+          "TypeScript: Adopted for its static typing, which improves code quality and maintainability.",
+        ],
       },
       {
         title: "Problems and Thought Process 👨‍⚖️",
-        summary:
-          "Like Most Projects, I Ran Into A Few Bumps Along The Way, One Particularly Difficult Area Was Organization And Structure Of The Code. Because Of This Project Size, I Realized How Important Maintaining An Organized Structure Would Be. I Worked Hard To Keep Components As Reusable As Possible And Utilized Props For Many Slight Variations. I Also Used Styled-Components, Because The Structure Of CSS-In-Js Is Much Clearer And Prevents Overrides.",
-        thumbnailUrl: "/src/assets/images/4.jpg",
+        steps: [
+          "Integration with GraphQL: Ensured that React components could efficiently communicate with the GraphQL API for data fetching and mutation.",
+          "State Management: Implemented Redux to manage the application state, making it easier to handle complex state logic.",
+          "Performance Optimization: Utilized Redis for caching to speed up data retrieval and improve the overall performance of the application.",
+          "User Interface Design: Leveraged Tailwind CSS for a responsive and aesthetically pleasing UI, enhancing the user experience.",
+        ],
       },
       {
         title: "Lessons Learned 💡",
-        summary:
-          "I Could Spend All Day Describing The Lessons That I Learned While Working On This Project, But The Most Important Ones Involved My Newfound Understanding Of React Hooks, Git Management, Feature Keys, And API Integration. As My First Large Project Using React, I Learned A Lot Of Lessons Regarding Code Structure And Organization. When I First Began, I Would Write Sloppy Code And Move On, But Now I Know How Doing So Can Come Back To Bite You; I Now Spend A Lot More Time Refactoring And Improving Every Line I Code I Write, For The Best Readability And Far Fewer Headaches.",
-        thumbnailUrl: "/src/assets/images/4.jpg",
+        steps: [
+          "GraphQL Integration: Gained a deeper understanding of integrating GraphQL with React, improving data fetching strategies.",
+          "State Management: Enhanced skills in using Redux for managing application state, leading to more efficient and maintainable code.",
+          "Performance Optimization: Learned the importance of caching and the benefits it brings to application performance using Redis.",
+          "UI Development: Improved proficiency in using Tailwind CSS for rapid and responsive UI development.",
+          "TypeScript: Strengthened knowledge of TypeScript, leading to better code quality and reduced bugs.",
+        ],
       },
     ],
   },
