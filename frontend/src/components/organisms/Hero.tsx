@@ -28,7 +28,7 @@ const Hero = () => {
         </h2>
 
         <Typography
-          className="mt-6 line-clamp-4 md:line-clamp-none max-w-2xl text-center tracking-tight"
+          className="mt-6  max-w-2xl text-center tracking-tight"
           size="base"
           weight="semibold"
         >

@@ -10,7 +10,7 @@ const CtaButtons = () => {
         bgColor="dark"
       >
         <Typography
-          className="tracking-tight"
+          className="tracking-tight "
           weight="bold"
           color="white"
           size="base"
@@ -22,7 +22,7 @@ const CtaButtons = () => {
 
       <Link href="/Resume.pdf" download={"SHUBHAM KUMAR"} bgColor="primary">
         <Typography
-          className="tracking-tight"
+          className="tracking-tight "
           weight="bold"
           color="white"
           size="base"

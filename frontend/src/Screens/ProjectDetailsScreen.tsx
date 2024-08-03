@@ -6,6 +6,7 @@ import ProjectInsights from "../components/molecules/ProjectInsights";
 import ProjectJourney from "../components/molecules/ProjectJourney";
 import HeaderPanel from "../components/molecules/HeaderPanel";
 import BreadCrumbs from "../components/molecules/BreadCrumbs";
+import { projectsPaths } from "../data";
 
 const ProjectDetailsScreen = () => {
   const { projectSlug } = useParams();
@@ -18,11 +19,6 @@ const ProjectDetailsScreen = () => {
   if (!project) {
     return <ProjectNotFound />;
   }
-
-  const projectsPaths = [
-    { label: "Home", link: "/" },
-    { label: "Project Details", link: "/" },
-  ];
 
   return (
     <div className="bg-[#0D0F11] py-10 text-white">

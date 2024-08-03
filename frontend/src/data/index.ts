@@ -170,4 +170,9 @@ const skills = [
   { src: graphqlLogo, alt: "Graphql" },
 ];
 
-export { projects, experiences, skills };
+const projectsPaths = [
+  { label: "Home", link: "/" },
+  { label: "Project Details", link: "/" },
+];
+
+export { projects, experiences, skills, projectsPaths };

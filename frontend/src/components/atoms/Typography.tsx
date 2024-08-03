@@ -18,7 +18,7 @@ const typographyVariants = cva(
         md: "text-[24px]",
         lg: "text-[40px]",
       },
-      color: { white: "text-white", slate: "text-slate-500" },
+      color: { white: "text-white ", slate: "text-slate-500 " },
       weight: {
         light: "font-light",
         normal: "font-normal",

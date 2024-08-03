@@ -16,12 +16,17 @@ const GetInTouch = () => {
         >
           Do you have a job opportunity or idea you'd like to discuss ? Feel
           free to reach me at{" "}
-          <span className="text-blue-400">shubhofficial1@gmail.com</span>. You
-          can also find me on{" "}
+          <a
+            href="mailto:[shubhofficial1@gmail.com]?subject=Let's Collaborate!&body=Hi Shubham,%0D%0A%0D%0AI came across your portfolio and I'm impressed by your work. I'd love to discuss potential collaboration opportunities with you.%0D%0A%0D%0AThanks,%0D%0A[Your Name]"
+            className="font-bold text-sky-500 hover:underline underline-offset-4 cursor-pointer"
+          >
+            shubhofficial1@gmail.com
+          </a>
+          . You can also find me on{" "}
           <a
             href="https://www.linkedin.com/in/shubhofficial1/"
             target="_blank"
-            className="text-blue-400 hover:underline underline-offset-4 cursor-pointer"
+            className="font-bold text-sky-400 hover:underline underline-offset-4 cursor-pointer"
           >
             LinkedIn
           </a>{" "}
@@ -29,7 +34,7 @@ const GetInTouch = () => {
           <a
             href="https://github.com/Shubhofficial1"
             target="_blank"
-            className="text-blue-400 hover:underline underline-offset-4 cursor-pointer"
+            className="font-bold text-sky-500 hover:underline underline-offset-4 cursor-pointer"
           >
             Github
           </a>{" "}
@@ -37,7 +42,7 @@ const GetInTouch = () => {
           <a
             href="https://twitter.com/shubhofficial0"
             target="_blank"
-            className="text-blue-400 hover:underline underline-offset-4 cursor-pointer"
+            className="font-bold text-sky-400 hover:underline underline-offset-4 cursor-pointer"
           >
             Twitter
           </a>
