@@ -19,7 +19,7 @@ const projects = [
     stack: ["React", "Socket.io", "tailwind", "NodeJS"],
     githubUrl: "https://github.com/Shubhofficial1",
     liveWebsite: "/",
-    thumbnail: "/src/assets/images/1.jpg",
+    thumbnail: "/assets/images/1.jpg",
     sections: [
       {
         title: "Web Stack and Explanation 🔥",
@@ -61,7 +61,7 @@ const projects = [
     stack: ["React", "WebRTC", "Tailwind", "NodeJS"],
     githubUrl: "https://github.com/Shubhofficial1",
     liveWebsite: "/",
-    thumbnail: "/src/assets/images/2.jpg",
+    thumbnail: "/assets/images/2.jpg",
     sections: [
       {
         title: "Web Stack and Explanation 🔥",
@@ -103,7 +103,7 @@ const projects = [
     stack: ["React", "Socket.io", "tailwind", "NodeJS"],
     githubUrl: "https://github.com/Shubhofficial1",
     liveWebsite: "/",
-    thumbnail: "/src/assets/images/3.jpg",
+    thumbnail: "/assets/images/3.jpg",
     sections: [
       {
         title: "Web Stack and Explanation 🔥",
@@ -145,7 +145,7 @@ const projects = [
     stack: ["React", "Socket.io", "tailwind", "NodeJS"],
     githubUrl: "https://github.com/Shubhofficial1",
     liveWebsite: "/",
-    thumbnail: "/src/assets/images/4.jpg",
+    thumbnail: "/assets/images/4.jpg",
     sections: [
       {
         title: "Web Stack and Explanation 🔥",
