@@ -63,7 +63,7 @@ const ProjectInsights: React.FC<IProjectDetailsGridProps> = ({ project }) => {
         <a
           href={project.githubUrl}
           target="_blank"
-          className="line-clamp-1 w-fit font-medium text-[14px] text-blue-500 underline underline-offset-4 tracking-wide"
+          className="line-clamp-1 w-fit font-medium text-[14px] text-[#626ee3] underline underline-offset-4 tracking-wide"
         >
           Respository
         </a>
@@ -77,7 +77,7 @@ const ProjectInsights: React.FC<IProjectDetailsGridProps> = ({ project }) => {
         <a
           href={project.liveWebsite}
           target="_blank"
-          className="line-clamp-1 w-fit font-medium text-[14px] text-blue-500 underline underline-offset-4 tracking-wide"
+          className="line-clamp-1 w-fit font-medium text-[14px] text-[#626ee3]  underline underline-offset-4 tracking-wide"
         >
           View Site
         </a>

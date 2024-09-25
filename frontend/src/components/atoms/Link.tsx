@@ -13,7 +13,7 @@ const linkVariants = cva(
   {
     variants: {
       bgColor: {
-        primary: "bg-indigo-600 text-white",
+        primary: "bg-[#626EE3] text-white",
         dark: "bg-slate-800 text-white",
         inherit: "bg-inherit text-white",
       },

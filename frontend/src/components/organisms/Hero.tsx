@@ -16,21 +16,22 @@ const Hero = () => {
           />
         </div>
 
-        <h1 className="mt-5 font-bold text-[46px] text-center tracking-wide">
+        <h1 className="mt-5 font-bold text-[46px] text-center tracking-wide select-none">
           Hi 👋, I'm{" "}
           <span className="bg-clip-text bg-gradient-to-r from-indigo-500 to-indigo-400 text-transparent [-webkit-background-clip:text]">
             Shubham
           </span>
         </h1>
 
-        <h2 className="my-1 font-extrabold text-[28px] text-center text-indigo-500 underline underline-offset-8 tracking-tight ">
+        <h2 className="my-1 font-extrabold text-[26px] text-center tracking-tight bg-gradient-to-r from-[#5acdf7] via-[#626ee3] to-[#87b9fa] bg-clip-text text-transparent underline-gradient select-none ">
           Front End Developer, Learner And Minimalist
         </h2>
 
         <Typography
-          className="mt-6  max-w-2xl text-center tracking-tight"
+          className="mt-6 max-w-2xl text-center tracking-tight"
           size="base"
           weight="semibold"
+          color="slate"
         >
           A web development professional with 4 years of experience in the
           field. Over the years, I've collaborated with talented developers who
