@@ -23,7 +23,7 @@ const Hero = () => {
           </span>
         </h1>
 
-        <h2 className="my-1 font-extrabold text-[26px] text-center tracking-tight bg-gradient-to-r from-[#5acdf7] via-[#626ee3] to-[#87b9fa] bg-clip-text text-transparent underline-gradient select-none ">
+        <h2 className="mt-1 font-extrabold text-[26px] text-center tracking-tight bg-gradient-to-r from-[#818cf8] to-[#c7d2fe] bg-clip-text text-transparent  select-none underline underline-offset-8 stroke-2  decoration-[#c7d2fe]">
           Front End Developer, Learner And Minimalist
         </h2>
 
