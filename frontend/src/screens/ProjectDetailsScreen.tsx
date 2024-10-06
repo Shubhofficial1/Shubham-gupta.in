@@ -11,7 +11,6 @@ import BreadCrumbs from "../components/molecules/BreadCrumbs";
 const ProjectDetailsScreen = () => {
   const { projectSlug } = useParams();
   const project = projects.find((project) => project.slug === projectSlug);
-
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "instant" });
   }, []);
