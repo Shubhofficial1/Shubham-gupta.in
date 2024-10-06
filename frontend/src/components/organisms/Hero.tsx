@@ -8,38 +8,22 @@ import { annotate, annotationGroup } from "rough-notation";
 
 const Hero = () => {
   const devTextRef = useRef(null);
-  const learnerTextRef = useRef(null);
-  const minimalistTextRef = useRef(null);
 
   useEffect(() => {
-    if (
-      devTextRef.current &&
-      learnerTextRef.current &&
-      minimalistTextRef.current
-    ) {
+    const color =
+      Math.random() < 0.33
+        ? "#ff785a"
+        : Math.random() < 0.66
+        ? "#0197f6"
+        : "#DF73FF";
+
+    if (devTextRef.current) {
       const devTextAnnotation = annotate(devTextRef.current, {
         type: "highlight",
-        color: "#ff785a",
-        animationDuration: 1000,
+        color: color,
+        animationDuration: 1500,
       });
-
-      const learnerTextAnnotation = annotate(learnerTextRef.current, {
-        type: "highlight",
-        color: "#0197f6",
-        animationDuration: 1000,
-      });
-
-      const minimalistTextAnnotation = annotate(minimalistTextRef.current, {
-        type: "highlight",
-        color: "#41e2ba",
-        animationDuration: 1000,
-      });
-
-      const group = annotationGroup([
-        devTextAnnotation,
-        learnerTextAnnotation,
-        minimalistTextAnnotation,
-      ]);
+      const group = annotationGroup([devTextAnnotation]);
       group.show();
     }
   }, []);
@@ -65,15 +49,8 @@ const Hero = () => {
         <h2 className="mt-1 font-extrabold text-[26px] text-center tracking-tight   select-none">
           <span className="text-white" ref={devTextRef}>
             Front End Developer
-          </span>{" "}
-          ,{" "}
-          <span className="text-white" ref={learnerTextRef}>
-            Learner
-          </span>{" "}
-          And{" "}
-          <span className="text-white" ref={minimalistTextRef}>
-            Minimalist
-          </span>{" "}
+          </span>
+          , Learner And Minimalist
         </h2>
         <Typography
           className="mt-6 max-w-2xl text-center tracking-tight"
@@ -81,11 +58,11 @@ const Hero = () => {
           weight="semibold"
           color="slate"
         >
-          A web development professional with 4 years of experience in the
-          field. Over the years, I've collaborated with talented developers who
-          have continuously raised the bar for what a web application should be.
-          I'm passionate about creating a sleek , efficient , and user-friendly
-          applications that stand out.
+          A web development professional with 4+ years of experience .
+          Throughout my career, i've collaborated with talented teams to take
+          web applications to the next level. I specialize in building sleek,
+          efficient and user centric applications that stand out. I'm currently
+          looking for a new role as a developer. Hire Me !
         </Typography>
         <CtaButtons />
       </div>
