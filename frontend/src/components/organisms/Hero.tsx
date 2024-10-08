@@ -36,6 +36,7 @@ const Hero = () => {
           <img
             src={profileImage}
             alt="Shubham Gupta"
+            loading="lazy"
             className="border-4 border-white rounded-full w-[180px] h-[180px] object-cover"
           />
         </div>

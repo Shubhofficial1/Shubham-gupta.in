@@ -29,6 +29,7 @@ const ProjectDetailsScreen = () => {
           <img
             src={project.thumbnail}
             alt={project.name}
+            loading="lazy"
             className="w-full h-full object-cover"
           />
         </div>

@@ -17,6 +17,7 @@ const SkillCard: React.FC<ISkillCardProps> = ({ skill }) => {
         <img
           src={skill.src}
           alt={skill.alt}
+          loading="lazy"
           className="flex-none w-full h-full"
         />
       </div>
