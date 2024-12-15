@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { projects } from "../../data";
-import { projectsPaths } from "../../data";
+import { projects, projectsPaths } from "../../constants";
 import ProjectNotFound from "../../components/organisms/ProjectNotFound";
 import ProjectInsights from "../../components/molecules/ProjectInsights";
 import ProjectJourney from "../../components/molecules/ProjectJourney";

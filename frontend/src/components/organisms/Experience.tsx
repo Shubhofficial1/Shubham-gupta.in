@@ -1,6 +1,6 @@
 import ExperienceCard from "../molecules/ExperienceCard";
 import Typography from "../atoms/Typography";
-import { experiences } from "../../data";
+import { experiences } from "../../constants";
 import HeaderPanel from "../molecules/HeaderPanel";
 
 const Experience = () => {

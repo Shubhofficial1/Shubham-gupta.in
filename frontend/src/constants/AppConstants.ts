@@ -9,7 +9,7 @@ import githubLogo from "/assets/logos/github.svg";
 import awsLogo from "/assets/logos/aws.svg";
 import graphqlLogo from "/assets/logos/graphql.svg";
 
-const projects = [
+export const projects = [
   {
     name: "SketchSync",
     slug: "sketch-sync",
@@ -180,7 +180,7 @@ const projects = [
   },
 ];
 
-const experiences = [
+export const experiences = [
   {
     _id: 1,
     joiningDate: "January 2023",
@@ -201,7 +201,7 @@ const experiences = [
   },
 ];
 
-const skills = [
+export const skills = [
   { src: reactLogo, alt: "React" },
   { src: nextJsLogo, alt: "NextJS" },
   { src: javascriptLogo, alt: "Javascript" },
@@ -214,9 +214,7 @@ const skills = [
   { src: graphqlLogo, alt: "Graphql" },
 ];
 
-const projectsPaths = [
+export const projectsPaths = [
   { label: "Home", link: "/" },
   { label: "Project Details", link: "/" },
 ];
-
-export { projects, experiences, skills, projectsPaths };

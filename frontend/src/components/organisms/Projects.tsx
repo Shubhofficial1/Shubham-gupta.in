@@ -1,5 +1,5 @@
 import ProjectCard from "../molecules/ProjectCard";
-import { projects } from "../../data";
+import { projects } from "../../constants";
 import HeaderPanel from "../molecules/HeaderPanel";
 
 const Projects = () => {
