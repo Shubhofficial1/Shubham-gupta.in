@@ -1,6 +1,6 @@
-import ProjectCard from "../molecules/ProjectCard";
-import { projects } from "../../constants";
-import HeaderPanel from "../molecules/HeaderPanel";
+import ProjectCard from "../../../components/ProjectCard";
+import { projects } from "../../../constants";
+import HeaderPanel from "../../../components//HeaderPanel";
 
 const Projects = () => {
   return (

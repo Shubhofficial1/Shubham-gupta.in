@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import Footer from "./components/molecules/Footer";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (

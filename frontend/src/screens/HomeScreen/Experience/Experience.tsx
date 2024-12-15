@@ -1,7 +1,7 @@
-import ExperienceCard from "../molecules/ExperienceCard";
-import Typography from "../atoms/Typography";
-import { experiences } from "../../constants";
-import HeaderPanel from "../molecules/HeaderPanel";
+import ExperienceCard from "../../../components/ExperienceCard";
+import Typography from "../../../components/ui/Typography";
+import { experiences } from "../../../constants";
+import HeaderPanel from "../../../components/HeaderPanel";
 
 const Experience = () => {
   return (

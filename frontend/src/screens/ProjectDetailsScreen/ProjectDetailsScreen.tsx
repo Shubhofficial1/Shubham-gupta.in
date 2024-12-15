@@ -1,11 +1,11 @@
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { projects, projectsPaths } from "../../constants";
-import ProjectNotFound from "../../components/organisms/ProjectNotFound";
-import ProjectInsights from "../../components/molecules/ProjectInsights";
-import ProjectJourney from "../../components/molecules/ProjectJourney";
-import HeaderPanel from "../../components/molecules/HeaderPanel";
-import BreadCrumbs from "../../components/molecules/BreadCrumbs";
+import ProjectNotFound from "../../components/ProjectNotFound";
+import ProjectInsights from "../../components/ProjectInsights";
+import ProjectJourney from "../../components/ProjectJourney";
+import HeaderPanel from "../../components/HeaderPanel";
+import BreadCrumbs from "../../components/ui/BreadCrumbs";
 
 const ProjectDetailsScreen = () => {
   const { projectSlug } = useParams();

@@ -1,5 +1,5 @@
-import Typography from "../atoms/Typography";
-import Link from "../atoms/Link";
+import Typography from "./ui/Typography";
+import Link from "./ui/Link";
 import { EnvelopeIcon, FolderArrowDownIcon } from "@heroicons/react/24/solid";
 
 const CtaButtons = () => {

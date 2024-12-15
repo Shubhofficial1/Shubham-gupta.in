@@ -1,4 +1,4 @@
-import Typography from "../atoms/Typography";
+import Typography from "./ui/Typography";
 
 interface IHeaderPanelProps {
   title: string;

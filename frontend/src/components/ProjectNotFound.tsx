@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
-import Button from "../atoms/Button";
-import Typography from "../atoms/Typography";
+import Button from "./ui/Button";
+import Typography from "./ui/Typography";
 
 const ProjectNotFound = () => {
   const navigate = useNavigate();
@@ -10,7 +10,6 @@ const ProjectNotFound = () => {
         <Typography className="mb-5 text-center" weight="bold" size="md">
           Oops ! 🫣 The Page You're Looking For Doesn't Exist
         </Typography>
-
         <Typography
           className="mb-10 max-w-xl  text-center"
           weight="medium"
@@ -21,7 +20,6 @@ const ProjectNotFound = () => {
           been removed, renamed, or never existed. Please check the URL or
           return to the previous page to try again.
         </Typography>
-
         <Button
           variant="primary"
           className={`p-2 rounded-lg`}

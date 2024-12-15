@@ -1,6 +1,6 @@
 import profileImage from "/assets/images/profile.webp";
-import Typography from "../atoms/Typography";
-import CtaButtons from "../molecules/CtaButtons";
+import Typography from "../../../components/ui/Typography";
+import CtaButtons from "../../../components/CtaButtons";
 import { StarIcon } from "@heroicons/react/24/solid";
 
 import { useEffect, useRef } from "react";

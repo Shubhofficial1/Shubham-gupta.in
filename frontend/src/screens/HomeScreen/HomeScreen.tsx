@@ -1,9 +1,9 @@
-import Banner from "../../components/molecules/Banner";
-import Hero from "../../components/organisms/Hero";
-import Skills from "../../components/organisms/Skills";
-import Projects from "../../components/organisms/Projects";
-import Experience from "../../components/organisms/Experience";
-import GetInTouch from "../../components/organisms/GetInTouch";
+import Hero from "./Hero/Hero";
+import Skills from "./Skills/Skills";
+import Projects from "./Projects/Projects";
+import Experience from "./Experience/Experience";
+import GetInTouch from "./GetInTouch/GetInTouch";
+import Banner from "../../components/ui/Banner";
 
 const HomeScreen = () => {
   return (

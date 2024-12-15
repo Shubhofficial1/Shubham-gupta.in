@@ -1,6 +1,6 @@
 import React from "react";
-import Typography from "../atoms/Typography";
-import Button from "../atoms/Button";
+import Typography from "./ui/Typography";
+import Button from "./ui/Button";
 import { useNavigate } from "react-router-dom";
 
 interface IProjects {
