@@ -1,5 +1,5 @@
 import { cva } from "class-variance-authority";
-import { cn } from "../../utils/cn";
+import { cn } from "../../Utils-test/cn";
 
 type TypographyProps = React.HTMLAttributes<HTMLHeadingElement> & {
   size?: "xs" | "sm" | "base" | "md" | "lg";
