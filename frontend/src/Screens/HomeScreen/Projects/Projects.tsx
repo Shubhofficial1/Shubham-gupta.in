@@ -1,6 +1,6 @@
-import ProjectCard from "../../../Components-test/Home/ProjectCard";
-import { projects } from "../../../Constants-test";
-import HeaderPanel from "../../../Components-test/Home/HeaderPanel";
+import ProjectCard from "../../../Components/Home/ProjectCard";
+import { projects } from "../../../Constants";
+import HeaderPanel from "../../../Components/Home/HeaderPanel";
 
 const Projects = () => {
   return (

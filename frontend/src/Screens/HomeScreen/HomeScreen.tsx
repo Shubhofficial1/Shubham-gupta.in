@@ -3,7 +3,7 @@ import Skills from "./Skills/Skills";
 import Projects from "./Projects/Projects";
 import Experience from "./Experience/Experience";
 import GetInTouch from "./GetInTouch/GetInTouch";
-import Banner from "../../Components-test/Home/Banner";
+import Banner from "../../Components/Home/Banner";
 
 const HomeScreen = () => {
   return (

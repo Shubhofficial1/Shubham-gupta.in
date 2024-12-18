@@ -1,4 +1,4 @@
-import Typography from "../../../Components-test/ui/Typography";
+import Typography from "../../../Components/ui/Typography";
 
 const GetInTouch = () => {
   return (

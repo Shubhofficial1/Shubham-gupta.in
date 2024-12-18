@@ -1,5 +1,5 @@
 import { cva } from "class-variance-authority";
-import { cn } from "../../Utils-test/cn";
+import { cn } from "../../Utils/cn";
 
 type ButtonProps = React.HTMLAttributes<HTMLButtonElement> & {
   variant?: "primary" | "ghost";

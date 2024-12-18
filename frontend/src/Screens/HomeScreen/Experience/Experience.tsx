@@ -1,7 +1,7 @@
-import ExperienceCard from "../../../Components-test/Home/ExperienceCard";
-import Typography from "../../../Components-test/ui/Typography";
-import { experiences } from "../../../Constants-test";
-import HeaderPanel from "../../../Components-test/Home/HeaderPanel";
+import ExperienceCard from "../../../Components/Home/ExperienceCard";
+import Typography from "../../../Components/ui/Typography";
+import { experiences } from "../../../Constants";
+import HeaderPanel from "../../../Components/Home/HeaderPanel";
 
 const Experience = () => {
   return (
