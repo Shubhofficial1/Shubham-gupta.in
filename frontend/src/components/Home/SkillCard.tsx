@@ -1,5 +1,5 @@
 import React from "react";
-import Typography from "./ui/Typography";
+import Typography from "../ui/Typography";
 
 interface ISkill {
   src: string;

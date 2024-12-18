@@ -1,4 +1,4 @@
-import Typography from "./ui/Typography";
+import Typography from "./Typography";
 
 const Footer = () => {
   return (

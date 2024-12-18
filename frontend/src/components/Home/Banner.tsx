@@ -1,4 +1,4 @@
-import Typography from "./Typography";
+import Typography from "../ui/Typography";
 
 const Banner = () => {
   return (

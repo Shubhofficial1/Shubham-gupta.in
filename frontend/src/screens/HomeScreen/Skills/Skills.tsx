@@ -1,6 +1,6 @@
-import SkillCard from "../../../components/SkillCard";
-import HeaderPanel from "../../../components/HeaderPanel";
-import { skills } from "../../../constants";
+import SkillCard from "../../../Components/Home/SkillCard";
+import HeaderPanel from "../../../Components/Home/HeaderPanel";
+import { skills } from "../../../Constants";
 import { motion } from "framer-motion";
 
 const Skills = () => {

@@ -1,5 +1,5 @@
 import { CheckCircleIcon, BoltIcon } from "@heroicons/react/24/solid";
-import Typography from "./ui/Typography";
+import Typography from "../ui/Typography";
 
 interface IExperience {
   _id: number;

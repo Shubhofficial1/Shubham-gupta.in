@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
-import Button from "./ui/Button";
-import Typography from "./ui/Typography";
+import Button from "../ui/Button";
+import Typography from "../ui/Typography";
 
 const ProjectNotFound = () => {
   const navigate = useNavigate();
