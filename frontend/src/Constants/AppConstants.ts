@@ -11,12 +11,19 @@ import graphqlLogo from "/assets/logos/graphql.svg";
 
 export const projects = [
   {
-    name: "SketchSync",
-    slug: "sketch-sync",
+    name: "LiveBoard",
+    slug: "live-board",
     description:
-      "SketchSync is a real-time collaborative whiteboard enabling seamless drawing and brainstorming sessions. Leveraging Socket.io, React, Node, Express and Tailwind, I crafted an interactive tool for effective team collaboration.",
+      "LiveBoard is a real-time collaborative blackboard enabling seamless drawing and brainstorming sessions. Leveraging Socket.io, React, Node, Express and Tailwind, I crafted an interactive tool for effective team collaboration.",
     type: "Personal",
-    stack: ["React", "Socket.io", "tailwind", "NodeJS"],
+    stack: [
+      "React",
+      "Socket.io",
+      "Tailwind",
+      "Redux Toolkit",
+      "Node.js",
+      "Express",
+    ],
     githubUrl: "https://github.com/Shubhofficial1",
     liveWebsite: "/",
     thumbnail: "/assets/images/1.jpg",
@@ -24,30 +31,30 @@ export const projects = [
       {
         title: "Web Stack and Explanation 🔥",
         steps: [
-          "React: Chosen for its ability to seamlessly connect with GraphQL and the Shopify-SDK for JavaScript, providing a smooth integration and dynamic user experience.",
-          "Tailwind CSS: Used for its utility-first CSS framework, enabling rapid UI development with custom styles.",
-          "Redux: Implemented for state management, ensuring a predictable and consistent state across the application.",
-          "Redis: Utilized for caching and fast data retrieval, enhancing application performance.",
-          "TypeScript: Adopted for its static typing, which improves code quality and maintainability.",
+          "React - Chosen for its seamless UI updates and real-time interactivity, making collaboration smooth and dynamic.",
+          "Socket.IO - Powers real-time collaboration by syncing actions instantly between users.",
+          "Tailwind CSS - Enables rapid UI development with clean, scalable, and modern designs.",
+          "Redux - Ensures a rock-solid state management system, keeping everything in sync across the app.",
+          "TypeScript - Adds stability and reliability with static typing, reducing errors and boosting maintainability.",
         ],
       },
       {
         title: "Problems and Thought Process 👨‍⚖️",
         steps: [
-          "Integration with GraphQL: Ensured that React components could efficiently communicate with the GraphQL API for data fetching and mutation.",
-          "State Management: Implemented Redux to manage the application state, making it easier to handle complex state logic.",
-          "Performance Optimization: Utilized Redis for caching to speed up data retrieval and improve the overall performance of the application.",
-          "User Interface Design: Leveraged Tailwind CSS for a responsive and aesthetically pleasing UI, enhancing the user experience.",
+          "Real-time Collaboration - Leveraged Socket.IO to sync actions instantly, ensuring a fluid multi-user experience.",
+          "State Management Challenges - Designed a Redux-powered store to handle canvas updates efficiently.",
+          "Handling Real-time Events - Used WebSockets to broadcast cursor movements, drawings, and edits seamlessly.",
+          "Smooth UI/UX - Used Tailwind CSS to craft an intuitive, responsive, and visually appealing whiteboard.",
+          "Handling Mouse Events - Implemented precise event listeners for seamless drawing, resizing, and moving elements.",
         ],
       },
       {
         title: "Lessons Learned 💡",
         steps: [
-          "GraphQL Integration: Gained a deeper understanding of integrating GraphQL with React, improving data fetching strategies.",
-          "State Management: Enhanced skills in using Redux for managing application state, leading to more efficient and maintainable code.",
-          "Performance Optimization: Learned the importance of caching and the benefits it brings to application performance using Redis.",
-          "UI Development: Improved proficiency in using Tailwind CSS for rapid and responsive UI development.",
-          "TypeScript: Strengthened knowledge of TypeScript, leading to better code quality and reduced bugs.",
+          "Mastering Real-time Tech - Gained in-depth knowledge of Socket.IO for live collaboration.",
+          "Redux in Action - Learned advanced state management techniques to keep the app structured and efficient.",
+          "Designing for Collaboration - Built a UI that enhances teamwork and usability.",
+          "TypeScript for Scalability - Strengthened TypeScript skills, ensuring a bug-free and maintainable codebase.",
         ],
       },
     ],
