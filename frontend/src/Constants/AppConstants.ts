@@ -60,85 +60,54 @@ export const projects = [
     ],
   },
   {
-    name: "PeerTalk",
-    slug: "peer-talk",
+    name: "Devshop",
+    slug: "devshop",
     description:
-      "PeerTal is a WebRTC-based application for seamless video communication between two users. Built with WebRTC, React, Node, Tailwind, and Express, it offers a smooth and responsive video chat experience.",
+      "Developed a full-featured eCommerce platform built using the Mern stack, React-bootstrap & Redux toolkit. It provides a seamless shopping experience with features like a shopping cart, product reviews, admin management, and PayPal integration.",
     type: "Personal",
-    stack: ["React", "WebRTC", "Tailwind", "NodeJS"],
-    githubUrl: "https://github.com/Shubhofficial1",
-    liveWebsite: "/",
-    thumbnail: "/assets/images/2.jpg",
-    sections: [
-      {
-        title: "Web Stack and Explanation 🔥",
-        steps: [
-          "React: Chosen for its ability to seamlessly connect with GraphQL and the Shopify-SDK for JavaScript, providing a smooth integration and dynamic user experience.",
-          "Tailwind CSS: Used for its utility-first CSS framework, enabling rapid UI development with custom styles.",
-          "Redux: Implemented for state management, ensuring a predictable and consistent state across the application.",
-          "Redis: Utilized for caching and fast data retrieval, enhancing application performance.",
-          "TypeScript: Adopted for its static typing, which improves code quality and maintainability.",
-        ],
-      },
-      {
-        title: "Problems and Thought Process 👨‍⚖️",
-        steps: [
-          "Integration with GraphQL: Ensured that React components could efficiently communicate with the GraphQL API for data fetching and mutation.",
-          "State Management: Implemented Redux to manage the application state, making it easier to handle complex state logic.",
-          "Performance Optimization: Utilized Redis for caching to speed up data retrieval and improve the overall performance of the application.",
-          "User Interface Design: Leveraged Tailwind CSS for a responsive and aesthetically pleasing UI, enhancing the user experience.",
-        ],
-      },
-      {
-        title: "Lessons Learned 💡",
-        steps: [
-          "GraphQL Integration: Gained a deeper understanding of integrating GraphQL with React, improving data fetching strategies.",
-          "State Management: Enhanced skills in using Redux for managing application state, leading to more efficient and maintainable code.",
-          "Performance Optimization: Learned the importance of caching and the benefits it brings to application performance using Redis.",
-          "UI Development: Improved proficiency in using Tailwind CSS for rapid and responsive UI development.",
-          "TypeScript: Strengthened knowledge of TypeScript, leading to better code quality and reduced bugs.",
-        ],
-      },
+    stack: [
+      "React",
+      "Redux Toolkit",
+      "React-Bootstrap",
+      "NodeJS",
+      "Express",
+      "MongoDB",
+      "JWT",
     ],
-  },
-  {
-    name: "Proshop",
-    slug: "proshop",
-    description:
-      "I built ProShop, a robust online e-commerce platform using the MERN stack and React-Bootstrap. It provides a seamless shopping experience with a modern, responsive design and efficient user interactions.",
-    type: "Personal",
-    stack: ["React", "Socket.io", "tailwind", "NodeJS"],
-    githubUrl: "https://github.com/Shubhofficial1",
+    githubUrl: "https://github.com/Shubhofficial1/devshop",
     liveWebsite: "/",
     thumbnail: "/assets/images/3.jpg",
     sections: [
       {
         title: "Web Stack and Explanation 🔥",
         steps: [
-          "React: Chosen for its ability to seamlessly connect with GraphQL and the Shopify-SDK for JavaScript, providing a smooth integration and dynamic user experience.",
-          "Tailwind CSS: Used for its utility-first CSS framework, enabling rapid UI development with custom styles.",
-          "Redux: Implemented for state management, ensuring a predictable and consistent state across the application.",
-          "Redis: Utilized for caching and fast data retrieval, enhancing application performance.",
-          "TypeScript: Adopted for its static typing, which improves code quality and maintainability.",
+          "React & React Hooks: Used for building dynamic and interactive UI components.",
+          "Redux Toolkit : Manages global state efficiently with actions and reducers.",
+          "Node.js & Express: Backend to handle API requests, authentication, and database operations.",
+          "MongoDB & Mongoose: NoSQL database for storing products, users, and order details.",
+          "React-Bootstrap: Provides responsive and modern UI components.",
+          "JWT Authentication: Uses HTTP-only cookies for secure user authentication.",
+          "PayPal & Credit Card Integration: Enables secure payments for customers.",
+          "Custom Database Seeder Script: Preloads initial data for testing and development.",
         ],
       },
       {
         title: "Problems and Thought Process 👨‍⚖️",
         steps: [
-          "Integration with GraphQL: Ensured that React components could efficiently communicate with the GraphQL API for data fetching and mutation.",
-          "State Management: Implemented Redux to manage the application state, making it easier to handle complex state logic.",
-          "Performance Optimization: Utilized Redis for caching to speed up data retrieval and improve the overall performance of the application.",
-          "User Interface Design: Leveraged Tailwind CSS for a responsive and aesthetically pleasing UI, enhancing the user experience.",
+          "Shopping Cart Management: Implemented efficient state management to track cart items, quantities, and order status.",
+          "Authentication & Security: Secured login sessions with JWT tokens and custom authentication middleware.",
+          "Admin Dashboard: Built features for product management, order tracking, and user management.",
+          "Pagination & Search: Implemented optimized database queries to enable smooth product search and pagination.",
         ],
       },
       {
         title: "Lessons Learned 💡",
         steps: [
-          "GraphQL Integration: Gained a deeper understanding of integrating GraphQL with React, improving data fetching strategies.",
-          "State Management: Enhanced skills in using Redux for managing application state, leading to more efficient and maintainable code.",
-          "Performance Optimization: Learned the importance of caching and the benefits it brings to application performance using Redis.",
-          "UI Development: Improved proficiency in using Tailwind CSS for rapid and responsive UI development.",
-          "TypeScript: Strengthened knowledge of TypeScript, leading to better code quality and reduced bugs.",
+          "Gained hands-on experience with MERN stack in a real-world project.",
+          "Improved state management skills using Redux for large-scale applications.",
+          "Learned secure authentication techniques using JWT and HTTP-only cookies.",
+          "Enhanced understanding of payment gateway integration with PayPal API.",
+          "Strengthened ability to build scalable and efficient backend APIs with Express and MongoDB.",
         ],
       },
     ],
@@ -188,6 +157,48 @@ export const projects = [
       },
     ],
   },
+  // {
+  //   name: "PeerTalk",
+  //   slug: "peer-talk",
+  //   description:
+  //     "PeerTal is a WebRTC-based application for seamless video communication between two users. Built with WebRTC, React, Node, Tailwind, and Express, it offers a smooth and responsive video chat experience.",
+  //   type: "Personal",
+  //   stack: ["React", "WebRTC", "Tailwind", "NodeJS"],
+  //   githubUrl: "https://github.com/Shubhofficial1",
+  //   liveWebsite: "/",
+  //   thumbnail: "/assets/images/2.jpg",
+  //   sections: [
+  //     {
+  //       title: "Web Stack and Explanation 🔥",
+  //       steps: [
+  //         "React: Chosen for its ability to seamlessly connect with GraphQL and the Shopify-SDK for JavaScript, providing a smooth integration and dynamic user experience.",
+  //         "Tailwind CSS: Used for its utility-first CSS framework, enabling rapid UI development with custom styles.",
+  //         "Redux: Implemented for state management, ensuring a predictable and consistent state across the application.",
+  //         "Redis: Utilized for caching and fast data retrieval, enhancing application performance.",
+  //         "TypeScript: Adopted for its static typing, which improves code quality and maintainability.",
+  //       ],
+  //     },
+  //     {
+  //       title: "Problems and Thought Process 👨‍⚖️",
+  //       steps: [
+  //         "Integration with GraphQL: Ensured that React components could efficiently communicate with the GraphQL API for data fetching and mutation.",
+  //         "State Management: Implemented Redux to manage the application state, making it easier to handle complex state logic.",
+  //         "Performance Optimization: Utilized Redis for caching to speed up data retrieval and improve the overall performance of the application.",
+  //         "User Interface Design: Leveraged Tailwind CSS for a responsive and aesthetically pleasing UI, enhancing the user experience.",
+  //       ],
+  //     },
+  //     {
+  //       title: "Lessons Learned 💡",
+  //       steps: [
+  //         "GraphQL Integration: Gained a deeper understanding of integrating GraphQL with React, improving data fetching strategies.",
+  //         "State Management: Enhanced skills in using Redux for managing application state, leading to more efficient and maintainable code.",
+  //         "Performance Optimization: Learned the importance of caching and the benefits it brings to application performance using Redis.",
+  //         "UI Development: Improved proficiency in using Tailwind CSS for rapid and responsive UI development.",
+  //         "TypeScript: Strengthened knowledge of TypeScript, leading to better code quality and reduced bugs.",
+  //       ],
+  //     },
+  //   ],
+  // },
 ];
 
 export const experiences = [
