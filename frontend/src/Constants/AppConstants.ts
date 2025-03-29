@@ -185,7 +185,7 @@ export const experiences = [
     _id: 1,
     joiningDate: "January 2023",
     completionDate: "Present",
-    duration: "1Y,7M",
+    duration: "2Y,3M",
     position: "Systems Engineer",
     company: "Tata Consultancy Services",
     companyShortName: "TCS",

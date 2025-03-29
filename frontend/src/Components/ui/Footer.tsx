@@ -9,7 +9,7 @@ const Footer = () => {
           weight="medium"
           color="slate"
         >
-          © 2024 Shubham Gupta. All rights reserved.
+          © {new Date().getFullYear()} Shubham Gupta. All rights reserved.
         </Typography>
         <Typography
           className="md:flex hidden mb-2 line-clamp-3 md:line-clamp-3 max-w-5xl text-[12px] text-center capitalize tracking-wide"
